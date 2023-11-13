@@ -423,6 +423,16 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Instrucciones_Descripcion1 {
+            get {
+                object obj = ResourceManager.GetObject("Instrucciones_Descripcion1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Instrucciones_Instrucciones_Textbox {
             get {
                 object obj = ResourceManager.GetObject("Instrucciones_Instrucciones-Textbox", resourceCulture);

@@ -67,7 +67,7 @@
             // 
             // pboxInstruccionesDescripcion
             // 
-            this.pboxInstruccionesDescripcion.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Descripcion;
+            this.pboxInstruccionesDescripcion.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Descripcion1;
             this.pboxInstruccionesDescripcion.Location = new System.Drawing.Point(53, 69);
             this.pboxInstruccionesDescripcion.Name = "pboxInstruccionesDescripcion";
             this.pboxInstruccionesDescripcion.Size = new System.Drawing.Size(773, 129);
