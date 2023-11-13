@@ -449,5 +449,14 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Vacio %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Descripcion %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Instrucciones-Textbox %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Bienvenida\Bienvenida_Titulo %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

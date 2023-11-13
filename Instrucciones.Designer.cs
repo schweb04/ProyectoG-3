@@ -28,36 +28,128 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblTiempo = new System.Windows.Forms.Label();
+            this.pboxTemporizador = new System.Windows.Forms.PictureBox();
+            this.pboxCasilla30 = new System.Windows.Forms.PictureBox();
+            this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
+            this.pboxSiguientePregunta = new System.Windows.Forms.PictureBox();
+            this.pboxPreguntaAnterior = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pboxInstruccionesControles = new System.Windows.Forms.PictureBox();
             this.pboxInstruccionesDescripcion = new System.Windows.Forms.PictureBox();
             this.pboxEntendido = new System.Windows.Forms.PictureBox();
             this.pboxInstruccionesTitulo = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pboxSiguientePregunta = new System.Windows.Forms.PictureBox();
-            this.pboxPreguntaAnterior = new System.Windows.Forms.PictureBox();
-            this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
-            this.pboxCasilla30 = new System.Windows.Forms.PictureBox();
-            this.pboxTemporizador = new System.Windows.Forms.PictureBox();
-            this.lblTiempo = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesControles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesDescripcion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxEntendido)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesTitulo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).BeginInit();
             this.SuspendLayout();
+            // 
+            // lblTiempo
+            // 
+            this.lblTiempo.AutoSize = true;
+            this.lblTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblTiempo.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblTiempo.Location = new System.Drawing.Point(718, 389);
+            this.lblTiempo.Name = "lblTiempo";
+            this.lblTiempo.Size = new System.Drawing.Size(46, 16);
+            this.lblTiempo.TabIndex = 56;
+            this.lblTiempo.Text = "30 min";
+            // 
+            // pboxTemporizador
+            // 
+            this.pboxTemporizador.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Temporizador;
+            this.pboxTemporizador.Location = new System.Drawing.Point(709, 374);
+            this.pboxTemporizador.Name = "pboxTemporizador";
+            this.pboxTemporizador.Size = new System.Drawing.Size(117, 50);
+            this.pboxTemporizador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxTemporizador.TabIndex = 55;
+            this.pboxTemporizador.TabStop = false;
+            // 
+            // pboxCasilla30
+            // 
+            this.pboxCasilla30.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector30;
+            this.pboxCasilla30.Location = new System.Drawing.Point(303, 361);
+            this.pboxCasilla30.Name = "pboxCasilla30";
+            this.pboxCasilla30.Size = new System.Drawing.Size(56, 63);
+            this.pboxCasilla30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxCasilla30.TabIndex = 51;
+            this.pboxCasilla30.TabStop = false;
+            // 
+            // pboxPreguntas110
+            // 
+            this.pboxPreguntas110.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_1_10;
+            this.pboxPreguntas110.Location = new System.Drawing.Point(12, 361);
+            this.pboxPreguntas110.Name = "pboxPreguntas110";
+            this.pboxPreguntas110.Size = new System.Drawing.Size(209, 63);
+            this.pboxPreguntas110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxPreguntas110.TabIndex = 50;
+            this.pboxPreguntas110.TabStop = false;
+            // 
+            // pboxSiguientePregunta
+            // 
+            this.pboxSiguientePregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Siguiente;
+            this.pboxSiguientePregunta.Location = new System.Drawing.Point(561, 374);
+            this.pboxSiguientePregunta.Name = "pboxSiguientePregunta";
+            this.pboxSiguientePregunta.Size = new System.Drawing.Size(69, 50);
+            this.pboxSiguientePregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxSiguientePregunta.TabIndex = 49;
+            this.pboxSiguientePregunta.TabStop = false;
+            // 
+            // pboxPreguntaAnterior
+            // 
+            this.pboxPreguntaAnterior.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Anterior;
+            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(463, 374);
+            this.pboxPreguntaAnterior.Name = "pboxPreguntaAnterior";
+            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(69, 50);
+            this.pboxPreguntaAnterior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxPreguntaAnterior.TabIndex = 48;
+            this.pboxPreguntaAnterior.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
+            this.pictureBox3.Location = new System.Drawing.Point(659, 216);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(209, 139);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 47;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(442, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(209, 139);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 46;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(227, 216);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(209, 139);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 45;
+            this.pictureBox1.TabStop = false;
             // 
             // pboxInstruccionesControles
             // 
-            this.pboxInstruccionesControles.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox;
+            this.pboxInstruccionesControles.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
             this.pboxInstruccionesControles.Location = new System.Drawing.Point(12, 216);
             this.pboxInstruccionesControles.Name = "pboxInstruccionesControles";
             this.pboxInstruccionesControles.Size = new System.Drawing.Size(209, 139);
@@ -67,7 +159,7 @@
             // 
             // pboxInstruccionesDescripcion
             // 
-            this.pboxInstruccionesDescripcion.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Descripcion1;
+            this.pboxInstruccionesDescripcion.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Descripcion__2_;
             this.pboxInstruccionesDescripcion.Location = new System.Drawing.Point(53, 69);
             this.pboxInstruccionesDescripcion.Name = "pboxInstruccionesDescripcion";
             this.pboxInstruccionesDescripcion.Size = new System.Drawing.Size(773, 129);
@@ -96,98 +188,6 @@
             this.pboxInstruccionesTitulo.TabIndex = 0;
             this.pboxInstruccionesTitulo.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 216);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(209, 139);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 45;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox;
-            this.pictureBox3.Location = new System.Drawing.Point(659, 216);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(209, 139);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 47;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox;
-            this.pictureBox2.Location = new System.Drawing.Point(442, 216);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(209, 139);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 46;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pboxSiguientePregunta
-            // 
-            this.pboxSiguientePregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Siguiente;
-            this.pboxSiguientePregunta.Location = new System.Drawing.Point(561, 374);
-            this.pboxSiguientePregunta.Name = "pboxSiguientePregunta";
-            this.pboxSiguientePregunta.Size = new System.Drawing.Size(69, 50);
-            this.pboxSiguientePregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxSiguientePregunta.TabIndex = 49;
-            this.pboxSiguientePregunta.TabStop = false;
-            // 
-            // pboxPreguntaAnterior
-            // 
-            this.pboxPreguntaAnterior.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Anterior;
-            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(463, 374);
-            this.pboxPreguntaAnterior.Name = "pboxPreguntaAnterior";
-            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(69, 50);
-            this.pboxPreguntaAnterior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxPreguntaAnterior.TabIndex = 48;
-            this.pboxPreguntaAnterior.TabStop = false;
-            // 
-            // pboxPreguntas110
-            // 
-            this.pboxPreguntas110.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_1_10;
-            this.pboxPreguntas110.Location = new System.Drawing.Point(12, 361);
-            this.pboxPreguntas110.Name = "pboxPreguntas110";
-            this.pboxPreguntas110.Size = new System.Drawing.Size(209, 63);
-            this.pboxPreguntas110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxPreguntas110.TabIndex = 50;
-            this.pboxPreguntas110.TabStop = false;
-            // 
-            // pboxCasilla30
-            // 
-            this.pboxCasilla30.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector30;
-            this.pboxCasilla30.Location = new System.Drawing.Point(303, 361);
-            this.pboxCasilla30.Name = "pboxCasilla30";
-            this.pboxCasilla30.Size = new System.Drawing.Size(56, 63);
-            this.pboxCasilla30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxCasilla30.TabIndex = 51;
-            this.pboxCasilla30.TabStop = false;
-            // 
-            // pboxTemporizador
-            // 
-            this.pboxTemporizador.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Temporizador;
-            this.pboxTemporizador.Location = new System.Drawing.Point(709, 374);
-            this.pboxTemporizador.Name = "pboxTemporizador";
-            this.pboxTemporizador.Size = new System.Drawing.Size(117, 50);
-            this.pboxTemporizador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxTemporizador.TabIndex = 55;
-            this.pboxTemporizador.TabStop = false;
-            // 
-            // lblTiempo
-            // 
-            this.lblTiempo.AutoSize = true;
-            this.lblTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblTiempo.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTiempo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblTiempo.Location = new System.Drawing.Point(718, 389);
-            this.lblTiempo.Name = "lblTiempo";
-            this.lblTiempo.Size = new System.Drawing.Size(46, 16);
-            this.lblTiempo.TabIndex = 56;
-            this.lblTiempo.Text = "30 min";
-            // 
             // Instrucciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -209,18 +209,18 @@
             this.Name = "Instrucciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Instrucciones";
+            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesControles)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesDescripcion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxEntendido)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesTitulo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

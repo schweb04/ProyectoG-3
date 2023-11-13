@@ -103,6 +103,16 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bienvenida_Titulo__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Bienvenida_Titulo (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Casilla_1 {
             get {
                 object obj = ResourceManager.GetObject("Casilla 1", resourceCulture);
@@ -423,6 +433,16 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Instrucciones_Descripcion__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Instrucciones_Descripcion (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Instrucciones_Descripcion1 {
             get {
                 object obj = ResourceManager.GetObject("Instrucciones_Descripcion1", resourceCulture);
@@ -436,6 +456,16 @@ namespace SistemaEvaluacion.Properties {
         internal static System.Drawing.Bitmap Instrucciones_Instrucciones_Textbox {
             get {
                 object obj = ResourceManager.GetObject("Instrucciones_Instrucciones-Textbox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Instrucciones_Instrucciones_Textbox__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Instrucciones_Instrucciones-Textbox (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
