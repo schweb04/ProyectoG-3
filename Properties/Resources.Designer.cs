@@ -933,9 +933,29 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Resultados_Numero_Aciertos__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Resultados_Numero-Aciertos (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Resultados_Numero_Errores {
             get {
                 object obj = ResourceManager.GetObject("Resultados_Numero-Errores", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Resultados_Numero_Errores__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Resultados_Numero-Errores (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -983,9 +1003,29 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Resultados_Respuesta_Correcta__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Resultados_Respuesta-Correcta (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Resultados_Respuesta_Incorrecta {
             get {
                 object obj = ResourceManager.GetObject("Resultados_Respuesta-Incorrecta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Resultados_Respuesta_Incorrecta__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Resultados_Respuesta-Incorrecta (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

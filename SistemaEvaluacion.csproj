@@ -428,5 +428,17 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Instrucciones-Textbox.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Numero-Aciertos %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Numero-Errores %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Respuesta-Correcta %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Respuesta-Incorrecta %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
