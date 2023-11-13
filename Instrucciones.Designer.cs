@@ -78,7 +78,7 @@
             // pboxEntendido
             // 
             this.pboxEntendido.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Boton_Entendido;
-            this.pboxEntendido.Location = new System.Drawing.Point(659, 458);
+            this.pboxEntendido.Location = new System.Drawing.Point(659, 462);
             this.pboxEntendido.Name = "pboxEntendido";
             this.pboxEntendido.Size = new System.Drawing.Size(210, 62);
             this.pboxEntendido.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
