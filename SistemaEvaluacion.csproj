@@ -440,5 +440,14 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Resultados\Resultados_Respuesta-Incorrecta %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Pregunta-Larga %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Resultados %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Vacio %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

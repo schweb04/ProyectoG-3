@@ -833,9 +833,29 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Preguntas_Pregunta_Larga__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Preguntas_Pregunta-Larga (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Preguntas_Respuestas_Vacio {
             get {
                 object obj = ResourceManager.GetObject("Preguntas_Respuestas-Vacio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Preguntas_Respuestas_Vacio__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Preguntas_Respuestas-Vacio (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1036,6 +1056,16 @@ namespace SistemaEvaluacion.Properties {
         internal static System.Drawing.Bitmap Resultados_Resultados {
             get {
                 object obj = ResourceManager.GetObject("Resultados_Resultados", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Resultados_Resultados__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Resultados_Resultados (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

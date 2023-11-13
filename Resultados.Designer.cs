@@ -716,7 +716,7 @@
             // 
             // pboxResultados
             // 
-            this.pboxResultados.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Resultados;
+            this.pboxResultados.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Resultados__2_;
             this.pboxResultados.Location = new System.Drawing.Point(44, 26);
             this.pboxResultados.Name = "pboxResultados";
             this.pboxResultados.Size = new System.Drawing.Size(213, 132);
@@ -759,7 +759,7 @@
             // 
             // pboxPregunta
             // 
-            this.pboxPregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Pregunta_Larga;
+            this.pboxPregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Pregunta_Larga__2_;
             this.pboxPregunta.Location = new System.Drawing.Point(356, 172);
             this.pboxPregunta.Name = "pboxPregunta";
             this.pboxPregunta.Size = new System.Drawing.Size(602, 95);
