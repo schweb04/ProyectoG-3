@@ -204,5 +204,15 @@ namespace SistemaEvaluacion
         {
             this.Close();
         }
+
+        private void pboxPreguntaAnterior_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxSiguientePregunta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -82,6 +82,8 @@
             this.pboxPreguntas1120 = new System.Windows.Forms.PictureBox();
             this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
             this.pboxPregunta = new System.Windows.Forms.PictureBox();
+            this.pboxSiguientePregunta = new System.Windows.Forms.PictureBox();
+            this.pboxPreguntaAnterior = new System.Windows.Forms.PictureBox();
             this.pnlPreguntas2130.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla29)).BeginInit();
@@ -129,6 +131,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas1120)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPregunta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlPreguntas2130
@@ -599,7 +603,7 @@
             // pboxMensajeResultado
             // 
             this.pboxMensajeResultado.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Mensaje;
-            this.pboxMensajeResultado.Location = new System.Drawing.Point(6, 480);
+            this.pboxMensajeResultado.Location = new System.Drawing.Point(6, 457);
             this.pboxMensajeResultado.Name = "pboxMensajeResultado";
             this.pboxMensajeResultado.Size = new System.Drawing.Size(377, 38);
             this.pboxMensajeResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -609,9 +613,9 @@
             // pboxFinalizar
             // 
             this.pboxFinalizar.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Boton_Terminar_Examen;
-            this.pboxFinalizar.Location = new System.Drawing.Point(784, 514);
+            this.pboxFinalizar.Location = new System.Drawing.Point(199, 514);
             this.pboxFinalizar.Name = "pboxFinalizar";
-            this.pboxFinalizar.Size = new System.Drawing.Size(210, 62);
+            this.pboxFinalizar.Size = new System.Drawing.Size(183, 62);
             this.pboxFinalizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxFinalizar.TabIndex = 41;
             this.pboxFinalizar.TabStop = false;
@@ -620,9 +624,9 @@
             // pboxRepetir
             // 
             this.pboxRepetir.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Boton_Repetir_Examen;
-            this.pboxRepetir.Location = new System.Drawing.Point(563, 514);
+            this.pboxRepetir.Location = new System.Drawing.Point(6, 514);
             this.pboxRepetir.Name = "pboxRepetir";
-            this.pboxRepetir.Size = new System.Drawing.Size(203, 62);
+            this.pboxRepetir.Size = new System.Drawing.Size(187, 62);
             this.pboxRepetir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRepetir.TabIndex = 40;
             this.pboxRepetir.TabStop = false;
@@ -741,11 +745,35 @@
             this.pboxPregunta.TabIndex = 26;
             this.pboxPregunta.TabStop = false;
             // 
+            // pboxSiguientePregunta
+            // 
+            this.pboxSiguientePregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Siguiente;
+            this.pboxSiguientePregunta.Location = new System.Drawing.Point(682, 514);
+            this.pboxSiguientePregunta.Name = "pboxSiguientePregunta";
+            this.pboxSiguientePregunta.Size = new System.Drawing.Size(69, 50);
+            this.pboxSiguientePregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxSiguientePregunta.TabIndex = 55;
+            this.pboxSiguientePregunta.TabStop = false;
+            this.pboxSiguientePregunta.Click += new System.EventHandler(this.pboxSiguientePregunta_Click);
+            // 
+            // pboxPreguntaAnterior
+            // 
+            this.pboxPreguntaAnterior.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Anterior;
+            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(559, 514);
+            this.pboxPreguntaAnterior.Name = "pboxPreguntaAnterior";
+            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(69, 50);
+            this.pboxPreguntaAnterior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxPreguntaAnterior.TabIndex = 54;
+            this.pboxPreguntaAnterior.TabStop = false;
+            this.pboxPreguntaAnterior.Click += new System.EventHandler(this.pboxPreguntaAnterior_Click);
+            // 
             // Resultados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1011, 588);
+            this.Controls.Add(this.pboxSiguientePregunta);
+            this.Controls.Add(this.pboxPreguntaAnterior);
             this.Controls.Add(this.pboxMensajeResultado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblIncorrectas);
@@ -821,6 +849,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas1120)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPregunta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -881,5 +911,7 @@
         private System.Windows.Forms.Label lblIncorrectas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pboxMensajeResultado;
+        private System.Windows.Forms.PictureBox pboxSiguientePregunta;
+        private System.Windows.Forms.PictureBox pboxPreguntaAnterior;
     }
 }
