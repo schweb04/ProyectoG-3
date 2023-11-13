@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49D60179-8950-4178-AFE0-B49AB49ADB5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SistemaEvaluacion</RootNamespace>
+    <AssemblyName>SistemaEvaluacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Evaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluacion.Designer.cs">
+      <DependentUpon>Evaluacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bienvenida.Designer.cs">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrucciones.Designer.cs">
+      <DependentUpon>Instrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultados.Designer.cs">
+      <DependentUpon>Resultados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Evaluacion.resx">
+      <DependentUpon>Evaluacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bienvenida.resx">
+      <DependentUpon>Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrucciones.resx">
+      <DependentUpon>Instrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resultados.resx">
+      <DependentUpon>Resultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.34.08 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.34.17 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.32.54 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.33.07 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.33.18 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.34.31 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.34.52 PM - copia.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.34.52 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.35.12 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 7.35.25 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casillas\Casilla 30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 9.55.52 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RespuestaCorrecta.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RespuestaIncorrecta.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 9.56.28 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 9.56.38 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 9.56.49 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-11-11 at 9.56.59 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Preguntas-1-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Preguntas-11-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Preguntas-21-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Pregunta-Larga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Vacio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Pregunta-Anterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Pregunta-Siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Finalizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Abandonar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Respuesta-Correcta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Respuesta-Incorrecta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Resultados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Porcentaje-Aciertos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Porcentaje-Errores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Boton-Repetir-Examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Boton-Terminar-Examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Bienvenida\Bienvenida_Titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Bienvenida\Bienvenida_Boton-Iniciar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Bienvenida\Bienvenida_Boton-Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Mensaje-Derrota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Mensaje-Victoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Temporizador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Numero-Aciertos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Numero-Errores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Resultados\Resultados_Mensaje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Bienvenida\Bienvenida_Boton-Instrucciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Boton-Entendido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Descripcion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Instrucciones\Instrucciones_Instrucciones-Textbox.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
