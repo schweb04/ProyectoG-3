@@ -458,5 +458,8 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Bienvenida\Bienvenida_Titulo %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Seleccionada %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

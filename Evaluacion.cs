@@ -218,22 +218,34 @@ namespace SistemaEvaluacion
 
         private void pboxRespuestaA_Click(object sender, EventArgs e)
         {
-
+            pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
+            pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
         }
 
         private void pboxRespuestaB_Click(object sender, EventArgs e)
         {
-
+            pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
+            pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
         }
 
         private void pboxRespuestaC_Click(object sender, EventArgs e)
         {
-
+            pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
+            pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
         }
 
         private void pboxRespuestaD_Click(object sender, EventArgs e)
         {
-
+            pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
+            pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
         }
     }
 }
