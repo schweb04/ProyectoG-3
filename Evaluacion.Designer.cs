@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             this.pnlPreguntas2130 = new System.Windows.Forms.Panel();
-            this.pnlPreguntas1120 = new System.Windows.Forms.Panel();
-            this.pnlPreguntas110 = new System.Windows.Forms.Panel();
-            this.lblPregunta = new System.Windows.Forms.Label();
-            this.lblRespuestaA = new System.Windows.Forms.Label();
-            this.lblRespuestaC = new System.Windows.Forms.Label();
-            this.lblRespuestaB = new System.Windows.Forms.Label();
-            this.lblRespuestaD = new System.Windows.Forms.Label();
-            this.pboxTemporizador = new System.Windows.Forms.PictureBox();
             this.pboxCasilla30 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla29 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla28 = new System.Windows.Forms.PictureBox();
@@ -47,6 +39,7 @@
             this.pboxCasilla23 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla22 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla21 = new System.Windows.Forms.PictureBox();
+            this.pnlPreguntas1120 = new System.Windows.Forms.Panel();
             this.pboxCasilla20 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla19 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla18 = new System.Windows.Forms.PictureBox();
@@ -57,6 +50,7 @@
             this.pboxCasilla13 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla12 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla11 = new System.Windows.Forms.PictureBox();
+            this.pnlPreguntas110 = new System.Windows.Forms.Panel();
             this.pboxCasilla10 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla9 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla8 = new System.Windows.Forms.PictureBox();
@@ -67,6 +61,12 @@
             this.pboxCasilla3 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla2 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla1 = new System.Windows.Forms.PictureBox();
+            this.lblPregunta = new System.Windows.Forms.Label();
+            this.lblRespuestaA = new System.Windows.Forms.Label();
+            this.lblRespuestaC = new System.Windows.Forms.Label();
+            this.lblRespuestaB = new System.Windows.Forms.Label();
+            this.lblRespuestaD = new System.Windows.Forms.Label();
+            this.pboxTemporizador = new System.Windows.Forms.PictureBox();
             this.pboxFinalizar = new System.Windows.Forms.PictureBox();
             this.pboxAbandonar = new System.Windows.Forms.PictureBox();
             this.pboxSiguientePregunta = new System.Windows.Forms.PictureBox();
@@ -81,9 +81,6 @@
             this.pboxPregunta = new System.Windows.Forms.PictureBox();
             this.lblTiempo = new System.Windows.Forms.Label();
             this.pnlPreguntas2130.SuspendLayout();
-            this.pnlPreguntas1120.SuspendLayout();
-            this.pnlPreguntas110.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla28)).BeginInit();
@@ -94,6 +91,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla21)).BeginInit();
+            this.pnlPreguntas1120.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla18)).BeginInit();
@@ -104,6 +102,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla11)).BeginInit();
+            this.pnlPreguntas110.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla8)).BeginInit();
@@ -114,6 +113,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxFinalizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxAbandonar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
@@ -144,110 +144,6 @@
             this.pnlPreguntas2130.Name = "pnlPreguntas2130";
             this.pnlPreguntas2130.Size = new System.Drawing.Size(672, 79);
             this.pnlPreguntas2130.TabIndex = 40;
-            // 
-            // pnlPreguntas1120
-            // 
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla20);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla19);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla18);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla17);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla16);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla15);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla14);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla13);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla12);
-            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla11);
-            this.pnlPreguntas1120.Location = new System.Drawing.Point(13, 121);
-            this.pnlPreguntas1120.Name = "pnlPreguntas1120";
-            this.pnlPreguntas1120.Size = new System.Drawing.Size(661, 71);
-            this.pnlPreguntas1120.TabIndex = 39;
-            // 
-            // pnlPreguntas110
-            // 
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla10);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla9);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla8);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla7);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla6);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla5);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla4);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla3);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla2);
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla1);
-            this.pnlPreguntas110.Location = new System.Drawing.Point(14, 121);
-            this.pnlPreguntas110.Name = "pnlPreguntas110";
-            this.pnlPreguntas110.Size = new System.Drawing.Size(661, 60);
-            this.pnlPreguntas110.TabIndex = 38;
-            // 
-            // lblPregunta
-            // 
-            this.lblPregunta.AutoSize = true;
-            this.lblPregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblPregunta.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPregunta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblPregunta.Location = new System.Drawing.Point(58, 219);
-            this.lblPregunta.Name = "lblPregunta";
-            this.lblPregunta.Size = new System.Drawing.Size(58, 16);
-            this.lblPregunta.TabIndex = 41;
-            this.lblPregunta.Text = "Pregunta";
-            // 
-            // lblRespuestaA
-            // 
-            this.lblRespuestaA.AutoSize = true;
-            this.lblRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaA.Location = new System.Drawing.Point(95, 330);
-            this.lblRespuestaA.Name = "lblRespuestaA";
-            this.lblRespuestaA.Size = new System.Drawing.Size(78, 16);
-            this.lblRespuestaA.TabIndex = 42;
-            this.lblRespuestaA.Text = "Respuesta A";
-            // 
-            // lblRespuestaC
-            // 
-            this.lblRespuestaC.AutoSize = true;
-            this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaC.Location = new System.Drawing.Point(386, 330);
-            this.lblRespuestaC.Name = "lblRespuestaC";
-            this.lblRespuestaC.Size = new System.Drawing.Size(78, 16);
-            this.lblRespuestaC.TabIndex = 43;
-            this.lblRespuestaC.Text = "Respuesta C";
-            // 
-            // lblRespuestaB
-            // 
-            this.lblRespuestaB.AutoSize = true;
-            this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaB.Location = new System.Drawing.Point(97, 445);
-            this.lblRespuestaB.Name = "lblRespuestaB";
-            this.lblRespuestaB.Size = new System.Drawing.Size(78, 16);
-            this.lblRespuestaB.TabIndex = 44;
-            this.lblRespuestaB.Text = "Respuesta B";
-            // 
-            // lblRespuestaD
-            // 
-            this.lblRespuestaD.AutoSize = true;
-            this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaD.Location = new System.Drawing.Point(386, 445);
-            this.lblRespuestaD.Name = "lblRespuestaD";
-            this.lblRespuestaD.Size = new System.Drawing.Size(78, 16);
-            this.lblRespuestaD.TabIndex = 45;
-            this.lblRespuestaD.Text = "Respuesta D";
-            // 
-            // pboxTemporizador
-            // 
-            this.pboxTemporizador.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Temporizador;
-            this.pboxTemporizador.Location = new System.Drawing.Point(584, 12);
-            this.pboxTemporizador.Name = "pboxTemporizador";
-            this.pboxTemporizador.Size = new System.Drawing.Size(101, 37);
-            this.pboxTemporizador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxTemporizador.TabIndex = 54;
-            this.pboxTemporizador.TabStop = false;
             // 
             // pboxCasilla30
             // 
@@ -359,6 +255,23 @@
             this.pboxCasilla21.TabStop = false;
             this.pboxCasilla21.Click += new System.EventHandler(this.pboxCasilla21_Click);
             // 
+            // pnlPreguntas1120
+            // 
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla20);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla19);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla18);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla17);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla16);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla15);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla14);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla13);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla12);
+            this.pnlPreguntas1120.Controls.Add(this.pboxCasilla11);
+            this.pnlPreguntas1120.Location = new System.Drawing.Point(13, 121);
+            this.pnlPreguntas1120.Name = "pnlPreguntas1120";
+            this.pnlPreguntas1120.Size = new System.Drawing.Size(661, 71);
+            this.pnlPreguntas1120.TabIndex = 39;
+            // 
             // pboxCasilla20
             // 
             this.pboxCasilla20.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector20;
@@ -468,6 +381,23 @@
             this.pboxCasilla11.TabIndex = 14;
             this.pboxCasilla11.TabStop = false;
             this.pboxCasilla11.Click += new System.EventHandler(this.pboxCasilla11_Click);
+            // 
+            // pnlPreguntas110
+            // 
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla10);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla9);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla8);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla7);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla6);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla5);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla4);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla3);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla2);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla1);
+            this.pnlPreguntas110.Location = new System.Drawing.Point(14, 121);
+            this.pnlPreguntas110.Name = "pnlPreguntas110";
+            this.pnlPreguntas110.Size = new System.Drawing.Size(661, 60);
+            this.pnlPreguntas110.TabIndex = 38;
             // 
             // pboxCasilla10
             // 
@@ -579,6 +509,76 @@
             this.pboxCasilla1.TabStop = false;
             this.pboxCasilla1.Click += new System.EventHandler(this.pboxCasilla1_Click);
             // 
+            // lblPregunta
+            // 
+            this.lblPregunta.AutoSize = true;
+            this.lblPregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblPregunta.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPregunta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblPregunta.Location = new System.Drawing.Point(58, 219);
+            this.lblPregunta.Name = "lblPregunta";
+            this.lblPregunta.Size = new System.Drawing.Size(58, 16);
+            this.lblPregunta.TabIndex = 41;
+            this.lblPregunta.Text = "Pregunta";
+            // 
+            // lblRespuestaA
+            // 
+            this.lblRespuestaA.AutoSize = true;
+            this.lblRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblRespuestaA.Location = new System.Drawing.Point(95, 330);
+            this.lblRespuestaA.Name = "lblRespuestaA";
+            this.lblRespuestaA.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaA.TabIndex = 42;
+            this.lblRespuestaA.Text = "Respuesta A";
+            // 
+            // lblRespuestaC
+            // 
+            this.lblRespuestaC.AutoSize = true;
+            this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblRespuestaC.Location = new System.Drawing.Point(386, 330);
+            this.lblRespuestaC.Name = "lblRespuestaC";
+            this.lblRespuestaC.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaC.TabIndex = 43;
+            this.lblRespuestaC.Text = "Respuesta C";
+            // 
+            // lblRespuestaB
+            // 
+            this.lblRespuestaB.AutoSize = true;
+            this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblRespuestaB.Location = new System.Drawing.Point(97, 445);
+            this.lblRespuestaB.Name = "lblRespuestaB";
+            this.lblRespuestaB.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaB.TabIndex = 44;
+            this.lblRespuestaB.Text = "Respuesta B";
+            // 
+            // lblRespuestaD
+            // 
+            this.lblRespuestaD.AutoSize = true;
+            this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblRespuestaD.Location = new System.Drawing.Point(386, 445);
+            this.lblRespuestaD.Name = "lblRespuestaD";
+            this.lblRespuestaD.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaD.TabIndex = 45;
+            this.lblRespuestaD.Text = "Respuesta D";
+            // 
+            // pboxTemporizador
+            // 
+            this.pboxTemporizador.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Temporizador;
+            this.pboxTemporizador.Location = new System.Drawing.Point(584, 12);
+            this.pboxTemporizador.Name = "pboxTemporizador";
+            this.pboxTemporizador.Size = new System.Drawing.Size(101, 37);
+            this.pboxTemporizador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxTemporizador.TabIndex = 54;
+            this.pboxTemporizador.TabStop = false;
+            // 
             // pboxFinalizar
             // 
             this.pboxFinalizar.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Finalizar;
@@ -654,6 +654,7 @@
             this.pboxRespuestaD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaD.TabIndex = 31;
             this.pboxRespuestaD.TabStop = false;
+            this.pboxRespuestaD.Click += new System.EventHandler(this.pboxRespuestaD_Click);
             // 
             // pboxRespuestaC
             // 
@@ -664,6 +665,7 @@
             this.pboxRespuestaC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaC.TabIndex = 30;
             this.pboxRespuestaC.TabStop = false;
+            this.pboxRespuestaC.Click += new System.EventHandler(this.pboxRespuestaC_Click);
             // 
             // pboxRespuestaB
             // 
@@ -674,6 +676,7 @@
             this.pboxRespuestaB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaB.TabIndex = 29;
             this.pboxRespuestaB.TabStop = false;
+            this.pboxRespuestaB.Click += new System.EventHandler(this.pboxRespuestaB_Click);
             // 
             // pboxRespuestaA
             // 
@@ -684,6 +687,7 @@
             this.pboxRespuestaA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaA.TabIndex = 28;
             this.pboxRespuestaA.TabStop = false;
+            this.pboxRespuestaA.Click += new System.EventHandler(this.pboxRespuestaA_Click);
             // 
             // pboxPreguntas110
             // 
@@ -750,9 +754,6 @@
             this.Text = "Evaluacion";
             this.Load += new System.EventHandler(this.Evaluacion_Load);
             this.pnlPreguntas2130.ResumeLayout(false);
-            this.pnlPreguntas1120.ResumeLayout(false);
-            this.pnlPreguntas110.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla28)).EndInit();
@@ -763,6 +764,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla21)).EndInit();
+            this.pnlPreguntas1120.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla18)).EndInit();
@@ -773,6 +775,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla11)).EndInit();
+            this.pnlPreguntas110.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla8)).EndInit();
@@ -783,6 +786,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxFinalizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxAbandonar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).EndInit();

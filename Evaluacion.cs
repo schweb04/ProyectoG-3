@@ -215,5 +215,25 @@ namespace SistemaEvaluacion
         {
             this.Close();
         }
+
+        private void pboxRespuestaA_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxRespuestaB_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxRespuestaC_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxRespuestaD_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
