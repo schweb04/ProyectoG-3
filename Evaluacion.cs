@@ -48,7 +48,9 @@ namespace SistemaEvaluacion
         private void pboxFinalizar_Click(object sender, EventArgs e)
         {
             Resultados resultados = new Resultados();
+            this.Hide();
             resultados.ShowDialog();
+            this.Close();
         }
 
         private void pboxCasilla1_Click(object sender, EventArgs e)

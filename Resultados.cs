@@ -197,7 +197,10 @@ namespace SistemaEvaluacion
 
         private void pboxRepetir_Click(object sender, EventArgs e)
         {
-
+            Evaluacion examen = new Evaluacion();
+            this.Hide();
+            examen.ShowDialog();
+            this.Show();
         }
 
         private void pboxFinalizar_Click(object sender, EventArgs e)

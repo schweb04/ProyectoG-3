@@ -25,13 +25,17 @@ namespace SistemaEvaluacion
         private void pboxIniciarExamen_Click(object sender, EventArgs e)
         {
             Evaluacion examen = new Evaluacion();
+            this.Hide();
             examen.ShowDialog();
+            this.Show();
         }
 
         private void pboxInstrucciones_Click(object sender, EventArgs e)
         {
             Instrucciones instrucciones = new Instrucciones();
+            this.Hide();
             instrucciones.ShowDialog();
+            this.Show();
         }
     }
 }
