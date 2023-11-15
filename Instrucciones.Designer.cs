@@ -34,25 +34,23 @@
             this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
             this.pboxSiguientePregunta = new System.Windows.Forms.PictureBox();
             this.pboxPreguntaAnterior = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pboxInstruccionesControles = new System.Windows.Forms.PictureBox();
             this.pboxInstruccionesDescripcion = new System.Windows.Forms.PictureBox();
             this.pboxEntendido = new System.Windows.Forms.PictureBox();
-            this.pboxInstruccionesTitulo = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxTemporizador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesControles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesDescripcion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxEntendido)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesTitulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTiempo
@@ -117,36 +115,6 @@
             this.pboxPreguntaAnterior.TabIndex = 48;
             this.pboxPreguntaAnterior.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pictureBox3.Location = new System.Drawing.Point(659, 216);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(209, 139);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 47;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(442, 216);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(209, 139);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 46;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 216);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(209, 139);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 45;
-            this.pictureBox1.TabStop = false;
-            // 
             // pboxInstruccionesControles
             // 
             this.pboxInstruccionesControles.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
@@ -178,15 +146,35 @@
             this.pboxEntendido.TabStop = false;
             this.pboxEntendido.Click += new System.EventHandler(this.pboxEntendido_Click);
             // 
-            // pboxInstruccionesTitulo
+            // pictureBox1
             // 
-            this.pboxInstruccionesTitulo.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Titulo;
-            this.pboxInstruccionesTitulo.Location = new System.Drawing.Point(214, 12);
-            this.pboxInstruccionesTitulo.Name = "pboxInstruccionesTitulo";
-            this.pboxInstruccionesTitulo.Size = new System.Drawing.Size(453, 51);
-            this.pboxInstruccionesTitulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxInstruccionesTitulo.TabIndex = 0;
-            this.pboxInstruccionesTitulo.TabStop = false;
+            this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(227, 216);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(209, 139);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 45;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(442, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(209, 139);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 46;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
+            this.pictureBox3.Location = new System.Drawing.Point(659, 216);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(209, 139);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 47;
+            this.pictureBox3.TabStop = false;
             // 
             // Instrucciones
             // 
@@ -205,7 +193,6 @@
             this.Controls.Add(this.pboxInstruccionesControles);
             this.Controls.Add(this.pboxInstruccionesDescripcion);
             this.Controls.Add(this.pboxEntendido);
-            this.Controls.Add(this.pboxInstruccionesTitulo);
             this.Name = "Instrucciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Instrucciones";
@@ -214,32 +201,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesControles)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesDescripcion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxEntendido)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxInstruccionesTitulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pboxInstruccionesTitulo;
         private System.Windows.Forms.PictureBox pboxEntendido;
         private System.Windows.Forms.PictureBox pboxInstruccionesDescripcion;
         private System.Windows.Forms.PictureBox pboxInstruccionesControles;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pboxSiguientePregunta;
         private System.Windows.Forms.PictureBox pboxPreguntaAnterior;
         private System.Windows.Forms.PictureBox pboxPreguntas110;
         private System.Windows.Forms.PictureBox pboxCasilla30;
         private System.Windows.Forms.PictureBox pboxTemporizador;
         private System.Windows.Forms.Label lblTiempo;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

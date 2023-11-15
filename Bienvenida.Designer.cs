@@ -30,55 +30,46 @@
         {
             this.lblBienvenida = new System.Windows.Forms.Label();
             this.pboxInstrucciones = new System.Windows.Forms.PictureBox();
-            this.pboxSalir = new System.Windows.Forms.PictureBox();
             this.pboxIniciarExamen = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pboxFondo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstrucciones)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxIniciarExamen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxFondo)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBienvenida
             // 
-            this.lblBienvenida.AutoSize = true;
             this.lblBienvenida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblBienvenida.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenida.Font = new System.Drawing.Font("Century", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblBienvenida.Location = new System.Drawing.Point(151, 70);
+            this.lblBienvenida.Location = new System.Drawing.Point(176, 97);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(70, 16);
+            this.lblBienvenida.Size = new System.Drawing.Size(150, 63);
             this.lblBienvenida.TabIndex = 43;
-            this.lblBienvenida.Text = "Bienvenida";
+            this.lblBienvenida.Text = "Bienvenido al Examen!";
+            this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pboxInstrucciones
             // 
+            this.pboxInstrucciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxInstrucciones.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Boton_Instrucciones;
-            this.pboxInstrucciones.Location = new System.Drawing.Point(84, 271);
+            this.pboxInstrucciones.Location = new System.Drawing.Point(188, 325);
             this.pboxInstrucciones.Name = "pboxInstrucciones";
-            this.pboxInstrucciones.Size = new System.Drawing.Size(203, 62);
+            this.pboxInstrucciones.Size = new System.Drawing.Size(138, 51);
             this.pboxInstrucciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxInstrucciones.TabIndex = 44;
             this.pboxInstrucciones.TabStop = false;
             this.pboxInstrucciones.Click += new System.EventHandler(this.pboxInstrucciones_Click);
             // 
-            // pboxSalir
-            // 
-            this.pboxSalir.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Boton_Salir;
-            this.pboxSalir.Location = new System.Drawing.Point(84, 353);
-            this.pboxSalir.Name = "pboxSalir";
-            this.pboxSalir.Size = new System.Drawing.Size(203, 62);
-            this.pboxSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxSalir.TabIndex = 42;
-            this.pboxSalir.TabStop = false;
-            this.pboxSalir.Click += new System.EventHandler(this.pboxSalir_Click);
-            // 
             // pboxIniciarExamen
             // 
+            this.pboxIniciarExamen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxIniciarExamen.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Boton_Iniciar;
-            this.pboxIniciarExamen.Location = new System.Drawing.Point(84, 189);
+            this.pboxIniciarExamen.Location = new System.Drawing.Point(188, 230);
             this.pboxIniciarExamen.Name = "pboxIniciarExamen";
-            this.pboxIniciarExamen.Size = new System.Drawing.Size(203, 62);
+            this.pboxIniciarExamen.Size = new System.Drawing.Size(138, 49);
             this.pboxIniciarExamen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxIniciarExamen.TabIndex = 41;
             this.pboxIniciarExamen.TabStop = false;
@@ -86,42 +77,54 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Titulo__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(50, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(143, 79);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(274, 155);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            // 
+            // pboxFondo
+            // 
+            this.pboxFondo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.pboxFondo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pboxFondo.Image = global::SistemaEvaluacion.Properties.Resources.Fondo_Bienvenida;
+            this.pboxFondo.Location = new System.Drawing.Point(0, 0);
+            this.pboxFondo.Name = "pboxFondo";
+            this.pboxFondo.Size = new System.Drawing.Size(541, 438);
+            this.pboxFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxFondo.TabIndex = 57;
+            this.pboxFondo.TabStop = false;
             // 
             // Bienvenida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 438);
+            this.ClientSize = new System.Drawing.Size(541, 438);
             this.Controls.Add(this.pboxInstrucciones);
             this.Controls.Add(this.lblBienvenida);
-            this.Controls.Add(this.pboxSalir);
             this.Controls.Add(this.pboxIniciarExamen);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pboxFondo);
             this.Name = "Bienvenida";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bienvenida";
             ((System.ComponentModel.ISupportInitialize)(this.pboxInstrucciones)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxIniciarExamen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxFondo)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pboxIniciarExamen;
-        private System.Windows.Forms.PictureBox pboxSalir;
         private System.Windows.Forms.Label lblBienvenida;
         private System.Windows.Forms.PictureBox pboxInstrucciones;
+        private System.Windows.Forms.PictureBox pboxFondo;
     }
 }
 

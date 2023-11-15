@@ -13,20 +13,6 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace SistemaEvaluacion
 {
-    public class Pregunta
-    {
-        public string ID { get; set; }
-        public string PreguntaTexto { get; set; }
-        public string RespuestaCorrecta { get; set; }
-        public string RespuestaIncorrecta1 { get; set; }
-        public string RespuestaIncorrecta2 { get; set; }
-        public string RespuestaIncorrecta3 { get; set; }
-        public string Puntuacion { get; set; }
-        public bool Seleccionada { get; set; }
-        public List<string> RespuestasBarajeadas { get; set; } = new List<string>();
-        public bool RespuestasBarajeadasFijas { get; set; } = false;
-        public string RespuestaSeleccionada { get; set; }
-    }
     public partial class Evaluacion : Form
     {
         private Timer temporizador;
@@ -332,6 +318,7 @@ namespace SistemaEvaluacion
 
         private void Evaluacion_Load(object sender, EventArgs e)
         {
+            pboxFondo.Image = global::SistemaEvaluacion.Properties.Resources.Fondo_Preguntas;
             pnlPreguntas110.Visible = true;
             pnlPreguntas1120.Visible = false;
             pnlPreguntas2130.Visible = false;
@@ -619,7 +606,7 @@ namespace SistemaEvaluacion
 
         private void pboxRespuestaC_Click(object sender, EventArgs e)
         {
-            // Actualiza la respuesta seleccionada por el usuario
+             // Actualiza la respuesta seleccionada por el usuario
             preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = "C";
 
             // Restablece la apariencia de las respuestas

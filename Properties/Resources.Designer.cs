@@ -413,6 +413,56 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Evaluacion_fondo {
+            get {
+                object obj = ResourceManager.GetObject("Evaluacion-fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_Bienvenida {
+            get {
+                object obj = ResourceManager.GetObject("Fondo_Bienvenida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_Instrucciones {
+            get {
+                object obj = ResourceManager.GetObject("Fondo_Instrucciones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_Preguntas {
+            get {
+                object obj = ResourceManager.GetObject("Fondo_Preguntas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_Respuestas {
+            get {
+                object obj = ResourceManager.GetObject("Fondo_Respuestas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Instrucciones_Boton_Entendido {
             get {
                 object obj = ResourceManager.GetObject("Instrucciones_Boton-Entendido", resourceCulture);
@@ -853,6 +903,16 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Preguntas_Pregunta_Anterior1 {
+            get {
+                object obj = ResourceManager.GetObject("Preguntas_Pregunta-Anterior1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Preguntas_Pregunta_Larga {
             get {
                 object obj = ResourceManager.GetObject("Preguntas_Pregunta-Larga", resourceCulture);
@@ -866,6 +926,16 @@ namespace SistemaEvaluacion.Properties {
         internal static System.Drawing.Bitmap Preguntas_Pregunta_Larga__2_ {
             get {
                 object obj = ResourceManager.GetObject("Preguntas_Pregunta-Larga (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Preguntas_Pregunta_Siguiente1 {
+            get {
+                object obj = ResourceManager.GetObject("Preguntas_Pregunta-Siguiente1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1106,6 +1176,36 @@ namespace SistemaEvaluacion.Properties {
         internal static System.Drawing.Bitmap Resultados_Resultados__2_ {
             get {
                 object obj = ResourceManager.GetObject("Resultados_Resultados (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sin_título_2 {
+            get {
+                object obj = ResourceManager.GetObject("Sin título-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sin_título_3 {
+            get {
+                object obj = ResourceManager.GetObject("Sin título-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap temporizador_arreglado {
+            get {
+                object obj = ResourceManager.GetObject("temporizador_arreglado", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

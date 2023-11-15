@@ -47,7 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Evaluacion.cs" />
+    <Compile Include="Pregunta.cs" />
+    <Compile Include="Evaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Evaluacion.Designer.cs">
       <DependentUpon>Evaluacion.cs</DependentUpon>
     </Compile>
@@ -459,6 +462,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Seleccionada %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Preguntas_Pregunta-Anterior1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Preguntas_Pregunta-Siguiente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Fondo_Preguntas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\temporizador_arreglado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Fondo_Bienvenida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Fondo_Instrucciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Fondo_Respuestas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Sin título-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Sin título-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion-fondo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

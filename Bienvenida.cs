@@ -17,11 +17,6 @@ namespace SistemaEvaluacion
             InitializeComponent();
         }
 
-        private void pboxSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void pboxIniciarExamen_Click(object sender, EventArgs e)
         {
             Evaluacion examen = new Evaluacion();
