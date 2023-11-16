@@ -505,5 +505,8 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Finalizar-Examen.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Resultados_Ultimo-Fondo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
