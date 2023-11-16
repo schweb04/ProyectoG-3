@@ -318,7 +318,6 @@ namespace SistemaEvaluacion
 
         private void Evaluacion_Load(object sender, EventArgs e)
         {
-            pboxFondo.Image = global::SistemaEvaluacion.Properties.Resources.Fondo_Preguntas;
             pnlPreguntas110.Visible = true;
             pnlPreguntas1120.Visible = false;
             pnlPreguntas2130.Visible = false;

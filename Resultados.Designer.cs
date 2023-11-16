@@ -51,7 +51,7 @@
             this.pboxPreguntas1120 = new System.Windows.Forms.PictureBox();
             this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
             this.pboxPregunta = new System.Windows.Forms.PictureBox();
-            this.pboxFondo = new System.Windows.Forms.PictureBox();
+            this.pboxResultadosFondo = new System.Windows.Forms.PictureBox();
             this.pnlPreguntas2130 = new System.Windows.Forms.Panel();
             this.pboxCasilla30 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla21 = new System.Windows.Forms.PictureBox();
@@ -101,7 +101,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas1120)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPregunta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxFondo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxResultadosFondo)).BeginInit();
             this.pnlPreguntas2130.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla21)).BeginInit();
@@ -404,17 +404,17 @@
             this.pboxPregunta.TabIndex = 26;
             this.pboxPregunta.TabStop = false;
             // 
-            // pboxFondo
+            // pboxResultadosFondo
             // 
-            this.pboxFondo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
-            this.pboxFondo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pboxFondo.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Ultimo_Fondo;
-            this.pboxFondo.Location = new System.Drawing.Point(0, 0);
-            this.pboxFondo.Name = "pboxFondo";
-            this.pboxFondo.Size = new System.Drawing.Size(1036, 677);
-            this.pboxFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxFondo.TabIndex = 57;
-            this.pboxFondo.TabStop = false;
+            this.pboxResultadosFondo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.pboxResultadosFondo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pboxResultadosFondo.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Ultimo_Fondo;
+            this.pboxResultadosFondo.Location = new System.Drawing.Point(0, 0);
+            this.pboxResultadosFondo.Name = "pboxResultadosFondo";
+            this.pboxResultadosFondo.Size = new System.Drawing.Size(1036, 677);
+            this.pboxResultadosFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxResultadosFondo.TabIndex = 57;
+            this.pboxResultadosFondo.TabStop = false;
             // 
             // pnlPreguntas2130
             // 
@@ -801,7 +801,7 @@
             this.Controls.Add(this.pboxPreguntas1120);
             this.Controls.Add(this.pboxPreguntas110);
             this.Controls.Add(this.pboxPregunta);
-            this.Controls.Add(this.pboxFondo);
+            this.Controls.Add(this.pboxResultadosFondo);
             this.Name = "Resultados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resultados";
@@ -822,7 +822,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas1120)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPregunta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxFondo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxResultadosFondo)).EndInit();
             this.pnlPreguntas2130.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla21)).EndInit();
@@ -885,7 +885,7 @@
         private System.Windows.Forms.PictureBox pboxMensajeResultado;
         private System.Windows.Forms.PictureBox pboxSiguientePregunta;
         private System.Windows.Forms.PictureBox pboxPreguntaAnterior;
-        private System.Windows.Forms.PictureBox pboxFondo;
+        private System.Windows.Forms.PictureBox pboxResultadosFondo;
         private System.Windows.Forms.Panel pnlPreguntas2130;
         private System.Windows.Forms.PictureBox pboxCasilla30;
         private System.Windows.Forms.PictureBox pboxCasilla21;
