@@ -81,7 +81,6 @@
             this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
             this.pboxPregunta = new System.Windows.Forms.PictureBox();
             this.pboxFondo = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.pnlPreguntas2130.SuspendLayout();
             this.pnlPreguntas1120.SuspendLayout();
             this.pnlPreguntas110.SuspendLayout();
@@ -757,21 +756,11 @@
             this.pboxFondo.TabIndex = 56;
             this.pboxFondo.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(709, 352);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 57;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Evaluacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 639);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblRespuestaD);
             this.Controls.Add(this.lblRespuestaB);
             this.Controls.Add(this.lblRespuestaA);
@@ -906,6 +895,5 @@
         private System.Windows.Forms.PictureBox pboxTemporizador;
         private System.Windows.Forms.Label lblTiempo;
         private System.Windows.Forms.PictureBox pboxFondo;
-        private System.Windows.Forms.Button button1;
     }
 }
