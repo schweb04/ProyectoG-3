@@ -493,5 +493,17 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion-fondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Ultimo-Fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Temporizador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Abandonar-Examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Finalizar-Examen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -136,9 +136,6 @@
   <data name="Casilla 14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Casilla 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Casillas\Casilla 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Instrucciones_Descripcion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Instrucciones\Instrucciones_Descripcion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +174,9 @@
   </data>
   <data name="WhatsApp Image 2023-11-11 at 9.56.59 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-11-11 at 9.56.59 PM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evaluacion_Temporizador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Temporizador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fondo_Preguntas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Graficos Nuevos\Fondo_Preguntas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,6 +220,9 @@
   <data name="Casilla 18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Preguntas_Boton-Selector10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Casilla 30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -228,6 +231,9 @@
   </data>
   <data name="Casilla 16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Casilla 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casillas\Casilla 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Resultados_Porcentaje-Aciertos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Resultados\Resultados_Porcentaje-Aciertos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,6 +274,9 @@
   <data name="Preguntas_Boton-Selector8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Evaluacion_Abandonar-Examen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Abandonar-Examen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Preguntas_Boton-Selector29" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -283,8 +292,8 @@
   <data name="Preguntas_Boton-Selector21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Casilla 27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Casillas\Casilla 27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Evaluacion-fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Graficos Nuevos\Evaluacion-fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bienvenida_Titulo (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Bienvenida\Bienvenida_Titulo (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,23 +304,26 @@
   <data name="Casilla 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Casilla 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casillas\Casilla 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Preguntas_Boton-Selector25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casilla 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Preguntas_Boton-Preguntas-1-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Preguntas-1-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Preguntas_Boton-Selector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Casilla 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casillas\Casilla 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casilla 19" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sin título-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Graficos Nuevos\Sin título-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evaluacion_Ultimo-Fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Ultimo-Fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casilla 17" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -336,6 +348,9 @@
   </data>
   <data name="Preguntas_Pregunta-Siguiente1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Graficos Nuevos\Preguntas_Pregunta-Siguiente1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Preguntas_Boton-Selector16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casilla 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -382,20 +397,17 @@
   <data name="Casilla 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Preguntas_Boton-Selector2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp Image 2023-11-11 at 7.34.17 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2023-11-11 at 7.34.17 PM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casilla 29" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Casilla 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Casillas\Casilla 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Preguntas_Boton-Preguntas-1-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Preguntas-1-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Instrucciones_Descripcion (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Instrucciones\Instrucciones_Descripcion (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Preguntas_Boton-Selector19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="temporizador_arreglado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Graficos Nuevos\temporizador_arreglado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -421,8 +433,8 @@
   <data name="Fondo_Instrucciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Graficos Nuevos\Fondo_Instrucciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Casilla 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Casillas\Casilla 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Preguntas_Boton-Selector2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RespuestaIncorrecta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RespuestaIncorrecta.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -439,8 +451,8 @@
   <data name="Instrucciones_Titulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Instrucciones\Instrucciones_Titulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Preguntas_Boton-Selector10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Preguntas_Boton-Selector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Instrucciones_Boton-Entendido" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Instrucciones\Instrucciones_Boton-Entendido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -457,8 +469,8 @@
   <data name="Resultados_Mensaje-Victoria" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Resultados\Resultados_Mensaje-Victoria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Preguntas_Respuestas-Seleccionada (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Seleccionada (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Preguntas_Boton-Selector19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bienvenida_Boton-Instrucciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Bienvenida\Bienvenida_Boton-Instrucciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -475,8 +487,8 @@
   <data name="Preguntas_Boton-Selector11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Preguntas_Boton-Selector16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Casilla 27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casillas\Casilla 27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Casilla 10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -490,8 +502,8 @@
   <data name="Resultados_Numero-Errores" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Resultados\Resultados_Numero-Errores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WhatsApp Image 2023-11-11 at 7.34.17 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2023-11-11 at 7.34.17 PM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Preguntas_Respuestas-Seleccionada (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Respuestas-Seleccionada (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Preguntas_Boton-Selector18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nuevos diseños\Preguntas\Preguntas_Boton-Selector18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -505,7 +517,7 @@
   <data name="Casilla 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Casillas\Casilla 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Evaluacion-fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nuevos diseños\Graficos Nuevos\Evaluacion-fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Evaluacion_Finalizar-Examen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nuevos diseños\Graficos Nuevos\Evaluacion_Finalizar-Examen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

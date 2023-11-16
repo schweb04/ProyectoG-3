@@ -413,9 +413,49 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Evaluacion_Abandonar_Examen {
+            get {
+                object obj = ResourceManager.GetObject("Evaluacion_Abandonar-Examen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Evaluacion_Finalizar_Examen {
+            get {
+                object obj = ResourceManager.GetObject("Evaluacion_Finalizar-Examen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Evaluacion_fondo {
             get {
                 object obj = ResourceManager.GetObject("Evaluacion-fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Evaluacion_Temporizador {
+            get {
+                object obj = ResourceManager.GetObject("Evaluacion_Temporizador", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Evaluacion_Ultimo_Fondo {
+            get {
+                object obj = ResourceManager.GetObject("Evaluacion_Ultimo-Fondo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
