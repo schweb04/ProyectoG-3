@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -107,7 +107,7 @@ namespace SistemaEvaluacion
             if (preguntasMostradas.Count > 0)
             {
                 preguntaActualIndex = preguntaActualIndex % preguntasMostradas.Count;
-                MostrarPreguntaEnCasilla(preguntasMostradas[preguntaActualIndex]);
+                MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[preguntaActualIndex]);
 
                 // Incrementa el índice para la siguiente pregunta
                 preguntaActualIndex++;
@@ -159,13 +159,14 @@ namespace SistemaEvaluacion
                 pregunta.Seleccionada = false;
             }
         }
-        private void MostrarPreguntaEnCasilla(Pregunta pregunta)
+        private void MostrarPreguntaEnCasilla(int numPregunta, Pregunta pregunta)
         {
+
             // Restablece la apariencia de las respuestas
             ReiniciarAparienciaRespuestas();
 
             // Configura los datos de la pregunta en la casilla actual
-            lblPregunta.Text = pregunta.PreguntaTexto;
+            lblPregunta.Text = $"{numPregunta}. {pregunta.PreguntaTexto}";
 
             // Verifica si las respuestas barajeadas ya han sido fijadas
             if (!pregunta.RespuestasBarajeadasFijas)
@@ -243,7 +244,7 @@ namespace SistemaEvaluacion
             int numeroCasilla = int.Parse(clickedCasilla.Name.Replace("pboxCasilla", ""));
             preguntaActualIndex = numeroCasilla - 1;
 
-            MostrarPreguntaEnCasilla(preguntasMostradas[preguntaActualIndex]);
+            MostrarPreguntaEnCasilla(preguntaActualIndex+1, preguntasMostradas[preguntaActualIndex]);
             ActualizarVisibilidadPaneles(preguntaActualIndex + 1);
         }
         private void InicializarPreguntas()
@@ -286,7 +287,7 @@ namespace SistemaEvaluacion
                 preguntasMostradas = preguntas.OrderBy(x => random.Next()).Take(30).ToList();
 
                 // Mostrar la primera pregunta
-                MostrarPreguntaEnCasilla(preguntasMostradas[0]);
+                MostrarPreguntaEnCasilla(preguntaActualIndex+1, preguntasMostradas[0]);
             }
             else
             {
@@ -539,7 +540,7 @@ namespace SistemaEvaluacion
                 preguntaActualIndex = preguntasMostradas.Count - 1;
             }
 
-            MostrarPreguntaEnCasilla(preguntasMostradas[preguntaActualIndex]);
+            MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[preguntaActualIndex]);
             ActualizarVisibilidadPaneles(preguntaActualIndex + 1);
         }
 
@@ -558,7 +559,7 @@ namespace SistemaEvaluacion
             ActualizarVisibilidadPaneles(preguntaActualIndex + 1);
 
             // Muestra la pregunta actual en la interfaz gráfica
-            MostrarPreguntaEnCasilla(preguntasMostradas[preguntaActualIndex]);
+            MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[preguntaActualIndex]);
         }
 
         private void pboxAbandonar_Click(object sender, EventArgs e)
@@ -576,7 +577,7 @@ namespace SistemaEvaluacion
             preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = letraRespuesta;
 
             // Actualiza la apariencia de las respuestas
-            MostrarPreguntaEnCasilla(preguntasMostradas[preguntaActualIndex]);
+            MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[preguntaActualIndex]);
         }
 
         private void pboxRespuestaA_Click(object sender, EventArgs e)
