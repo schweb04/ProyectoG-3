@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using System.Threading;
 
 namespace SistemaEvaluacion
 {
@@ -18,11 +18,92 @@ namespace SistemaEvaluacion
         private int preguntasCorrectas = 0;
         private int preguntasIncorrectas = 0;
 
+
         public Resultados()
         {
             InitializeComponent();
             preguntas = new List<Pregunta>();
             CargarDatosCasillas();
+
+            // Agrega un retraso de 1 segundos
+            Thread.Sleep(1000);
+            // Recorre todas las preguntas y verifica las respuestas
+            for (int i = 0; i < 30; i++)
+            {
+                VerificarRespuesta(i);
+            }
+        }
+
+        private void VerificarRespuesta(int preguntaActualIndex)
+        {
+            // Asegúrate de que la lista de preguntas esté cargada antes de acceder a una pregunta específica
+            if (preguntas != null && preguntas.Count > preguntaActualIndex)
+            {
+                Pregunta preguntaActual = preguntas[preguntaActualIndex]; // Ajusta el índice según la base cero
+
+                // Obtiene la respuesta correcta directamente del archivo CSV
+                string rutaArchivo = "resultados.csv";
+
+                if (File.Exists(rutaArchivo))
+                {
+                    var lineaPregunta = File.ReadLines(rutaArchivo)
+                        .ElementAtOrDefault(preguntaActualIndex); // Obtener la línea de la pregunta actual
+
+                    if (lineaPregunta != null)
+                    {
+                        var campos = lineaPregunta.Split(',');
+
+                        // Obtener la respuesta correcta
+                        var respuestaCorrecta = campos.ElementAtOrDefault(1);
+
+                        // Obtener la respuesta seleccionada y su texto correspondiente
+                        var respuestaSeleccionada = campos.ElementAtOrDefault(2);
+
+                        // Inicializa textoRespuestaSeleccionada
+                        var textoRespuestaSeleccionada = "";
+
+                        // Utiliza switch para determinar el texto de la respuesta seleccionada
+                        switch (respuestaSeleccionada)
+                        {
+                            case "A":
+                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(3);
+                                break;
+                            case "B":
+                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(4);
+                                break;
+                            case "C":
+                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(5);
+                                break;
+                            case "D":
+                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(6);
+                                break;
+                        }
+
+                        // Verifica si la respuesta seleccionada es correcta
+                        if (respuestaCorrecta != null && respuestaCorrecta == textoRespuestaSeleccionada)
+                        {
+                            preguntasCorrectas++;
+                        }
+                        else
+                        {
+                            preguntasIncorrectas++;
+                        }
+
+                        // Actualiza Labels
+                        lblCorrectas.Text = $"{preguntasCorrectas}";
+                        lblIncorrectas.Text = $"{preguntasIncorrectas}";
+                        lblPuntuacion.Text = $"{Math.Round(preguntasCorrectas * 3.33, 2)} Pts"; // Redondea a 2 decimales
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Error al acceder al archivo CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Error al acceder a la pregunta actual. Asegúrate de cargar las preguntas correctamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void MostrarPreguntaYRespuestas(int preguntaActualIndex)
