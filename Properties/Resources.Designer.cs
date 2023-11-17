@@ -113,6 +113,16 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bienvenida_Ultimo_Fondo {
+            get {
+                object obj = ResourceManager.GetObject("Bienvenida_Ultimo-Fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Casilla_1 {
             get {
                 object obj = ResourceManager.GetObject("Casilla 1", resourceCulture);

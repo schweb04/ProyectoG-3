@@ -511,5 +511,8 @@
   <ItemGroup>
     <None Include="Resources\Nuevos diseños\Graficos Nuevos\Instrucciones_Ultimo-Fondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevos diseños\Graficos Nuevos\Bienvenida_Ultimo-Fondo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

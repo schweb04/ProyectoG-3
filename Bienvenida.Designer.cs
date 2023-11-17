@@ -44,9 +44,9 @@
             this.lblBienvenida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblBienvenida.Font = new System.Drawing.Font("Century", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblBienvenida.Location = new System.Drawing.Point(176, 97);
+            this.lblBienvenida.Location = new System.Drawing.Point(181, 103);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(150, 63);
+            this.lblBienvenida.Size = new System.Drawing.Size(160, 63);
             this.lblBienvenida.TabIndex = 43;
             this.lblBienvenida.Text = "Bienvenido al Examen!";
             this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -55,9 +55,9 @@
             // 
             this.pboxInstrucciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxInstrucciones.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Boton_Instrucciones;
-            this.pboxInstrucciones.Location = new System.Drawing.Point(188, 325);
+            this.pboxInstrucciones.Location = new System.Drawing.Point(193, 227);
             this.pboxInstrucciones.Name = "pboxInstrucciones";
-            this.pboxInstrucciones.Size = new System.Drawing.Size(138, 51);
+            this.pboxInstrucciones.Size = new System.Drawing.Size(140, 51);
             this.pboxInstrucciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxInstrucciones.TabIndex = 44;
             this.pboxInstrucciones.TabStop = false;
@@ -67,9 +67,9 @@
             // 
             this.pboxIniciarExamen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxIniciarExamen.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Boton_Iniciar;
-            this.pboxIniciarExamen.Location = new System.Drawing.Point(188, 230);
+            this.pboxIniciarExamen.Location = new System.Drawing.Point(193, 315);
             this.pboxIniciarExamen.Name = "pboxIniciarExamen";
-            this.pboxIniciarExamen.Size = new System.Drawing.Size(138, 49);
+            this.pboxIniciarExamen.Size = new System.Drawing.Size(140, 49);
             this.pboxIniciarExamen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxIniciarExamen.TabIndex = 41;
             this.pboxIniciarExamen.TabStop = false;
@@ -79,9 +79,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Titulo__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(143, 79);
+            this.pictureBox1.Location = new System.Drawing.Point(166, 88);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(215, 104);
+            this.pictureBox1.Size = new System.Drawing.Size(193, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -90,10 +90,10 @@
             // 
             this.pboxFondo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pboxFondo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pboxFondo.Image = global::SistemaEvaluacion.Properties.Resources.Fondo_Bienvenida;
+            this.pboxFondo.Image = global::SistemaEvaluacion.Properties.Resources.Bienvenida_Ultimo_Fondo;
             this.pboxFondo.Location = new System.Drawing.Point(0, 0);
             this.pboxFondo.Name = "pboxFondo";
-            this.pboxFondo.Size = new System.Drawing.Size(541, 438);
+            this.pboxFondo.Size = new System.Drawing.Size(502, 438);
             this.pboxFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxFondo.TabIndex = 57;
             this.pboxFondo.TabStop = false;
@@ -102,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 438);
+            this.ClientSize = new System.Drawing.Size(502, 438);
             this.Controls.Add(this.pboxInstrucciones);
             this.Controls.Add(this.lblBienvenida);
             this.Controls.Add(this.pboxIniciarExamen);
