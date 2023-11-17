@@ -1,4 +1,4 @@
-﻿namespace SistemaEvaluacion
+namespace SistemaEvaluacion
 {
     partial class Resultados
     {
@@ -85,6 +85,7 @@
             this.pboxCasilla5 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla6 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla7 = new System.Windows.Forms.PictureBox();
+            this.lblPuntuacion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxMensajeResultado)).BeginInit();
@@ -815,11 +816,24 @@
             this.pboxCasilla7.TabStop = false;
             this.pboxCasilla7.Click += new System.EventHandler(this.pboxCasilla7_Click);
             // 
+            // lblPuntuacion
+            // 
+            this.lblPuntuacion.AutoSize = true;
+            this.lblPuntuacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblPuntuacion.Font = new System.Drawing.Font("Century", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPuntuacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblPuntuacion.Location = new System.Drawing.Point(821, 161);
+            this.lblPuntuacion.Name = "lblPuntuacion";
+            this.lblPuntuacion.Size = new System.Drawing.Size(115, 23);
+            this.lblPuntuacion.TabIndex = 61;
+            this.lblPuntuacion.Text = "Puntuación";
+            // 
             // Resultados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 677);
+            this.Controls.Add(this.lblPuntuacion);
             this.Controls.Add(this.pnlPreguntas110);
             this.Controls.Add(this.pnlPreguntas1120);
             this.Controls.Add(this.pnlPreguntas2130);
@@ -964,5 +978,6 @@
         private System.Windows.Forms.PictureBox pboxCasilla5;
         private System.Windows.Forms.PictureBox pboxCasilla6;
         private System.Windows.Forms.PictureBox pboxCasilla7;
+        private System.Windows.Forms.Label lblPuntuacion;
     }
 }
