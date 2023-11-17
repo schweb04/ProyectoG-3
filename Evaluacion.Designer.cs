@@ -593,7 +593,7 @@
             this.pboxTemporizador.Image = global::SistemaEvaluacion.Properties.Resources.Evaluacion_Temporizador;
             this.pboxTemporizador.Location = new System.Drawing.Point(705, 18);
             this.pboxTemporizador.Name = "pboxTemporizador";
-            this.pboxTemporizador.Size = new System.Drawing.Size(157, 63);
+            this.pboxTemporizador.Size = new System.Drawing.Size(186, 63);
             this.pboxTemporizador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxTemporizador.TabIndex = 54;
             this.pboxTemporizador.TabStop = false;

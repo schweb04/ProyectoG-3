@@ -19,5 +19,6 @@ namespace SistemaEvaluacion
         public List<string> RespuestasBarajeadas { get; set; } = new List<string>();
         public bool RespuestasBarajeadasFijas { get; set; } = false;
         public string RespuestaSeleccionada { get; set; }
+    
     }
 }

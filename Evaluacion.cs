@@ -291,8 +291,7 @@ namespace SistemaEvaluacion
             }
             else
             {
-                // Manejo de error: La lista de preguntas está vacía o nula
-                // Puedes decidir qué hacer en este caso, como lanzar una excepción o mostrar un mensaje al usuario.
+
             }
         }
 
@@ -342,39 +341,40 @@ namespace SistemaEvaluacion
         }
         private void GuardarResultadosCSV()
         {
-            // Ruta del archivo CSV
-            string rutaArchivo = "resultados.csv";
-
-            // Verifica si el archivo ya existe y lo elimina para crear uno nuevo
-            if (File.Exists(rutaArchivo))
+            try
             {
-                File.Delete(rutaArchivo);
-            }
+                // Ruta del archivo CSV de resultados
+                string rutaArchivoResultados = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "resultados.csv");
 
-            // Crea un nuevo archivo CSV
-            using (StreamWriter writer = new StreamWriter(rutaArchivo, true))
-            {
-                // Escribe el encabezado del archivo CSV
-                writer.WriteLine("Pregunta,RespuestaCorrecta,RespuestaSeleccionada,RespuestaA,RespuestaB,RespuestaC,RespuestaD");
-
-                // Escribe cada pregunta y sus respuestas en el archivo CSV
-                foreach (var pregunta in preguntasMostradas)
+                // Crear o abrir el archivo CSV de resultados
+                using (StreamWriter writer = new StreamWriter(rutaArchivoResultados))
                 {
-                    // Utiliza la propiedad Seleccionada para obtener la respuesta seleccionada por el usuario
-                    string respuestaSeleccionada = string.IsNullOrEmpty(pregunta.RespuestaSeleccionada) ? "No seleccionada" : $"{pregunta.RespuestaSeleccionada} (Respuesta seleccionada)";
+                    // Escribir la cabecera en el archivo
+                    writer.WriteLine("Pregunta,Respuesta Correcta,Respuesta Seleccionada,Respuesta A,Respuesta B,Respuesta C,Respuesta D");
 
-                    // Escribe la línea en el archivo CSV
-                    writer.WriteLine($"{pregunta.PreguntaTexto},{pregunta.RespuestaCorrecta},{respuestaSeleccionada}," +
-                        $"{ObtenerRespuestaSegura(pregunta.RespuestasBarajeadas, 0)},{ObtenerRespuestaSegura(pregunta.RespuestasBarajeadas, 1)}," +
-                        $"{ObtenerRespuestaSegura(pregunta.RespuestasBarajeadas, 2)},{ObtenerRespuestaSegura(pregunta.RespuestasBarajeadas, 3)}");
+                    // Iterar a través de las preguntas y escribir los resultados en el archivo
+                    foreach (var pregunta in preguntasMostradas)
+                    {
+                        string preguntaTexto = pregunta.PreguntaTexto;
+                        string respuestaCorrecta = pregunta.RespuestaCorrecta;
+                        string respuestaSeleccionada = pregunta.RespuestaSeleccionada ?? "No respondida";
+                        string respuestaA = pregunta.RespuestasBarajeadas.Count > 0 ? pregunta.RespuestasBarajeadas[0] : "No disponible";
+                        string respuestaB = pregunta.RespuestasBarajeadas.Count > 1 ? pregunta.RespuestasBarajeadas[1] : "No disponible";
+                        string respuestaC = pregunta.RespuestasBarajeadas.Count > 2 ? pregunta.RespuestasBarajeadas[2] : "No disponible";
+                        string respuestaD = pregunta.RespuestasBarajeadas.Count > 3 ? pregunta.RespuestasBarajeadas[3] : "No disponible";
+
+                        // Escribir la línea de resultados en el archivo
+                        writer.WriteLine($"{preguntaTexto},{respuestaCorrecta},{respuestaSeleccionada},{respuestaA},{respuestaB},{respuestaC},{respuestaD}");
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción que pueda ocurrir durante la escritura del archivo
+                MessageBox.Show($"Error al guardar los resultados: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        private string ObtenerRespuestaSegura(List<string> respuestas, int indice)
-        {
-            return respuestas.Count > indice ? respuestas[indice] : "No disponible";
-        }
         private void pboxCasilla1_Click(object sender, EventArgs e)
         {
 

@@ -34,7 +34,7 @@
             this.lblRespuestaB = new System.Windows.Forms.Label();
             this.lblRespuestaD = new System.Windows.Forms.Label();
             this.lblIncorrectas = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblCorrectas = new System.Windows.Forms.Label();
             this.pboxSiguientePregunta = new System.Windows.Forms.PictureBox();
             this.pboxPreguntaAnterior = new System.Windows.Forms.PictureBox();
             this.pboxMensajeResultado = new System.Windows.Forms.PictureBox();
@@ -75,8 +75,8 @@
             this.pboxCasilla15 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla16 = new System.Windows.Forms.PictureBox();
             this.pnlPreguntas110 = new System.Windows.Forms.Panel();
-            this.pboxCasilla10 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla1 = new System.Windows.Forms.PictureBox();
+            this.pboxCasilla10 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla2 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla9 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla3 = new System.Windows.Forms.PictureBox();
@@ -125,8 +125,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla16)).BeginInit();
             this.pnlPreguntas110.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla3)).BeginInit();
@@ -148,6 +148,7 @@
             this.lblPregunta.Size = new System.Drawing.Size(96, 23);
             this.lblPregunta.TabIndex = 45;
             this.lblPregunta.Text = "Pregunta";
+            this.lblPregunta.Click += new System.EventHandler(this.lblPregunta_Click);
             // 
             // lblRespuestaA
             // 
@@ -160,6 +161,7 @@
             this.lblRespuestaA.Size = new System.Drawing.Size(78, 16);
             this.lblRespuestaA.TabIndex = 46;
             this.lblRespuestaA.Text = "Respuesta A";
+            this.lblRespuestaA.Click += new System.EventHandler(this.lblRespuestaA_Click);
             // 
             // lblRespuestaC
             // 
@@ -172,6 +174,7 @@
             this.lblRespuestaC.Size = new System.Drawing.Size(78, 16);
             this.lblRespuestaC.TabIndex = 47;
             this.lblRespuestaC.Text = "Respuesta C";
+            this.lblRespuestaC.Click += new System.EventHandler(this.lblRespuestaC_Click);
             // 
             // lblRespuestaB
             // 
@@ -184,6 +187,7 @@
             this.lblRespuestaB.Size = new System.Drawing.Size(78, 16);
             this.lblRespuestaB.TabIndex = 48;
             this.lblRespuestaB.Text = "Respuesta B";
+            this.lblRespuestaB.Click += new System.EventHandler(this.lblRespuestaB_Click);
             // 
             // lblRespuestaD
             // 
@@ -196,6 +200,7 @@
             this.lblRespuestaD.Size = new System.Drawing.Size(78, 16);
             this.lblRespuestaD.TabIndex = 49;
             this.lblRespuestaD.Text = "Respuesta D";
+            this.lblRespuestaD.Click += new System.EventHandler(this.lblRespuestaD_Click);
             // 
             // lblIncorrectas
             // 
@@ -208,18 +213,20 @@
             this.lblIncorrectas.Size = new System.Drawing.Size(68, 16);
             this.lblIncorrectas.TabIndex = 50;
             this.lblIncorrectas.Text = "Incorrectas";
+            this.lblIncorrectas.Click += new System.EventHandler(this.lblIncorrectas_Click);
             // 
-            // label1
+            // lblCorrectas
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.label1.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(255)))), ((int)(((byte)(60)))));
-            this.label1.Location = new System.Drawing.Point(851, 296);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 16);
-            this.label1.TabIndex = 51;
-            this.label1.Text = "Correctas";
+            this.lblCorrectas.AutoSize = true;
+            this.lblCorrectas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblCorrectas.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorrectas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(255)))), ((int)(((byte)(60)))));
+            this.lblCorrectas.Location = new System.Drawing.Point(851, 296);
+            this.lblCorrectas.Name = "lblCorrectas";
+            this.lblCorrectas.Size = new System.Drawing.Size(61, 16);
+            this.lblCorrectas.TabIndex = 51;
+            this.lblCorrectas.Text = "Correctas";
+            this.lblCorrectas.Click += new System.EventHandler(this.lblCorrectas_Click);
             // 
             // pboxSiguientePregunta
             // 
@@ -255,6 +262,7 @@
             this.pboxMensajeResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxMensajeResultado.TabIndex = 53;
             this.pboxMensajeResultado.TabStop = false;
+            this.pboxMensajeResultado.Click += new System.EventHandler(this.pboxMensajeResultado_Click);
             // 
             // pboxFinalizar
             // 
@@ -290,6 +298,7 @@
             this.pboxErrores.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxErrores.TabIndex = 39;
             this.pboxErrores.TabStop = false;
+            this.pboxErrores.Click += new System.EventHandler(this.pboxErrores_Click);
             // 
             // pboxAciertos
             // 
@@ -301,6 +310,7 @@
             this.pboxAciertos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxAciertos.TabIndex = 38;
             this.pboxAciertos.TabStop = false;
+            this.pboxAciertos.Click += new System.EventHandler(this.pboxAciertos_Click);
             // 
             // pboxRespuestaD
             // 
@@ -334,6 +344,7 @@
             this.pboxRespuestaC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaC.TabIndex = 35;
             this.pboxRespuestaC.TabStop = false;
+            this.pboxRespuestaC.Click += new System.EventHandler(this.pboxRespuestaC_Click);
             // 
             // pboxRespuestaA
             // 
@@ -345,6 +356,7 @@
             this.pboxRespuestaA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaA.TabIndex = 34;
             this.pboxRespuestaA.TabStop = false;
+            this.pboxRespuestaA.Click += new System.EventHandler(this.pboxRespuestaA_Click);
             // 
             // pboxResultados
             // 
@@ -356,6 +368,7 @@
             this.pboxResultados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxResultados.TabIndex = 33;
             this.pboxResultados.TabStop = false;
+            this.pboxResultados.Click += new System.EventHandler(this.pboxResultados_Click);
             // 
             // pboxPreguntas2130
             // 
@@ -403,6 +416,7 @@
             this.pboxPregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPregunta.TabIndex = 26;
             this.pboxPregunta.TabStop = false;
+            this.pboxPregunta.Click += new System.EventHandler(this.pboxPregunta_Click);
             // 
             // pboxResultadosFondo
             // 
@@ -415,6 +429,7 @@
             this.pboxResultadosFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxResultadosFondo.TabIndex = 57;
             this.pboxResultadosFondo.TabStop = false;
+            this.pboxResultadosFondo.Click += new System.EventHandler(this.pboxResultadosFondo_Click);
             // 
             // pnlPreguntas2130
             // 
@@ -443,6 +458,7 @@
             this.pboxCasilla30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla30.TabIndex = 23;
             this.pboxCasilla30.TabStop = false;
+            this.pboxCasilla30.Click += new System.EventHandler(this.pboxCasilla30_Click_1);
             // 
             // pboxCasilla21
             // 
@@ -453,6 +469,7 @@
             this.pboxCasilla21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla21.TabIndex = 14;
             this.pboxCasilla21.TabStop = false;
+            this.pboxCasilla21.Click += new System.EventHandler(this.pboxCasilla21_Click_1);
             // 
             // pboxCasilla22
             // 
@@ -463,6 +480,7 @@
             this.pboxCasilla22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla22.TabIndex = 15;
             this.pboxCasilla22.TabStop = false;
+            this.pboxCasilla22.Click += new System.EventHandler(this.pboxCasilla22_Click_1);
             // 
             // pboxCasilla29
             // 
@@ -473,6 +491,7 @@
             this.pboxCasilla29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla29.TabIndex = 22;
             this.pboxCasilla29.TabStop = false;
+            this.pboxCasilla29.Click += new System.EventHandler(this.pboxCasilla29_Click_1);
             // 
             // pboxCasilla23
             // 
@@ -483,6 +502,7 @@
             this.pboxCasilla23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla23.TabIndex = 16;
             this.pboxCasilla23.TabStop = false;
+            this.pboxCasilla23.Click += new System.EventHandler(this.pboxCasilla23_Click_1);
             // 
             // pboxCasilla24
             // 
@@ -493,6 +513,7 @@
             this.pboxCasilla24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla24.TabIndex = 17;
             this.pboxCasilla24.TabStop = false;
+            this.pboxCasilla24.Click += new System.EventHandler(this.pboxCasilla24_Click_1);
             // 
             // pboxCasilla28
             // 
@@ -503,6 +524,7 @@
             this.pboxCasilla28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla28.TabIndex = 21;
             this.pboxCasilla28.TabStop = false;
+            this.pboxCasilla28.Click += new System.EventHandler(this.pboxCasilla28_Click_1);
             // 
             // pboxCasilla25
             // 
@@ -513,6 +535,7 @@
             this.pboxCasilla25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla25.TabIndex = 18;
             this.pboxCasilla25.TabStop = false;
+            this.pboxCasilla25.Click += new System.EventHandler(this.pboxCasilla25_Click_1);
             // 
             // pboxCasilla26
             // 
@@ -523,6 +546,7 @@
             this.pboxCasilla26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla26.TabIndex = 19;
             this.pboxCasilla26.TabStop = false;
+            this.pboxCasilla26.Click += new System.EventHandler(this.pboxCasilla26_Click_1);
             // 
             // pboxCasilla27
             // 
@@ -533,6 +557,7 @@
             this.pboxCasilla27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla27.TabIndex = 20;
             this.pboxCasilla27.TabStop = false;
+            this.pboxCasilla27.Click += new System.EventHandler(this.pboxCasilla27_Click_1);
             // 
             // pnlPreguntas1120
             // 
@@ -561,6 +586,7 @@
             this.pboxCasilla20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla20.TabIndex = 23;
             this.pboxCasilla20.TabStop = false;
+            this.pboxCasilla20.Click += new System.EventHandler(this.pboxCasilla20_Click_1);
             // 
             // pboxCasilla11
             // 
@@ -571,6 +597,7 @@
             this.pboxCasilla11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla11.TabIndex = 14;
             this.pboxCasilla11.TabStop = false;
+            this.pboxCasilla11.Click += new System.EventHandler(this.pboxCasilla11_Click_1);
             // 
             // pboxCasilla12
             // 
@@ -581,6 +608,7 @@
             this.pboxCasilla12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla12.TabIndex = 15;
             this.pboxCasilla12.TabStop = false;
+            this.pboxCasilla12.Click += new System.EventHandler(this.pboxCasilla12_Click_1);
             // 
             // pboxCasilla19
             // 
@@ -591,6 +619,7 @@
             this.pboxCasilla19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla19.TabIndex = 22;
             this.pboxCasilla19.TabStop = false;
+            this.pboxCasilla19.Click += new System.EventHandler(this.pboxCasilla19_Click_1);
             // 
             // pboxCasilla13
             // 
@@ -601,6 +630,7 @@
             this.pboxCasilla13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla13.TabIndex = 16;
             this.pboxCasilla13.TabStop = false;
+            this.pboxCasilla13.Click += new System.EventHandler(this.pboxCasilla13_Click_1);
             // 
             // pboxCasilla18
             // 
@@ -611,6 +641,7 @@
             this.pboxCasilla18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla18.TabIndex = 21;
             this.pboxCasilla18.TabStop = false;
+            this.pboxCasilla18.Click += new System.EventHandler(this.pboxCasilla18_Click_1);
             // 
             // pboxCasilla14
             // 
@@ -621,6 +652,7 @@
             this.pboxCasilla14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla14.TabIndex = 17;
             this.pboxCasilla14.TabStop = false;
+            this.pboxCasilla14.Click += new System.EventHandler(this.pboxCasilla14_Click_1);
             // 
             // pboxCasilla17
             // 
@@ -631,6 +663,7 @@
             this.pboxCasilla17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla17.TabIndex = 20;
             this.pboxCasilla17.TabStop = false;
+            this.pboxCasilla17.Click += new System.EventHandler(this.pboxCasilla17_Click_1);
             // 
             // pboxCasilla15
             // 
@@ -641,6 +674,7 @@
             this.pboxCasilla15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla15.TabIndex = 18;
             this.pboxCasilla15.TabStop = false;
+            this.pboxCasilla15.Click += new System.EventHandler(this.pboxCasilla15_Click_1);
             // 
             // pboxCasilla16
             // 
@@ -651,12 +685,13 @@
             this.pboxCasilla16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla16.TabIndex = 19;
             this.pboxCasilla16.TabStop = false;
+            this.pboxCasilla16.Click += new System.EventHandler(this.pboxCasilla16_Click_1);
             // 
             // pnlPreguntas110
             // 
             this.pnlPreguntas110.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
-            this.pnlPreguntas110.Controls.Add(this.pboxCasilla10);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla1);
+            this.pnlPreguntas110.Controls.Add(this.pboxCasilla10);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla2);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla9);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla3);
@@ -670,16 +705,6 @@
             this.pnlPreguntas110.Size = new System.Drawing.Size(661, 56);
             this.pnlPreguntas110.TabIndex = 60;
             // 
-            // pboxCasilla10
-            // 
-            this.pboxCasilla10.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector10;
-            this.pboxCasilla10.Location = new System.Drawing.Point(603, 3);
-            this.pboxCasilla10.Name = "pboxCasilla10";
-            this.pboxCasilla10.Size = new System.Drawing.Size(49, 50);
-            this.pboxCasilla10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxCasilla10.TabIndex = 23;
-            this.pboxCasilla10.TabStop = false;
-            // 
             // pboxCasilla1
             // 
             this.pboxCasilla1.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector1;
@@ -689,6 +714,18 @@
             this.pboxCasilla1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla1.TabIndex = 14;
             this.pboxCasilla1.TabStop = false;
+            this.pboxCasilla1.Click += new System.EventHandler(this.pboxCasilla1_Click);
+            // 
+            // pboxCasilla10
+            // 
+            this.pboxCasilla10.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector10;
+            this.pboxCasilla10.Location = new System.Drawing.Point(603, 3);
+            this.pboxCasilla10.Name = "pboxCasilla10";
+            this.pboxCasilla10.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pboxCasilla10.TabIndex = 23;
+            this.pboxCasilla10.TabStop = false;
+            this.pboxCasilla10.Click += new System.EventHandler(this.pboxCasilla10_Click_1);
             // 
             // pboxCasilla2
             // 
@@ -699,6 +736,7 @@
             this.pboxCasilla2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla2.TabIndex = 15;
             this.pboxCasilla2.TabStop = false;
+            this.pboxCasilla2.Click += new System.EventHandler(this.pboxCasilla2_Click_1);
             // 
             // pboxCasilla9
             // 
@@ -709,6 +747,7 @@
             this.pboxCasilla9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla9.TabIndex = 22;
             this.pboxCasilla9.TabStop = false;
+            this.pboxCasilla9.Click += new System.EventHandler(this.pboxCasilla9_Click);
             // 
             // pboxCasilla3
             // 
@@ -719,6 +758,7 @@
             this.pboxCasilla3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla3.TabIndex = 16;
             this.pboxCasilla3.TabStop = false;
+            this.pboxCasilla3.Click += new System.EventHandler(this.pboxCasilla3_Click_1);
             // 
             // pboxCasilla4
             // 
@@ -729,6 +769,7 @@
             this.pboxCasilla4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla4.TabIndex = 17;
             this.pboxCasilla4.TabStop = false;
+            this.pboxCasilla4.Click += new System.EventHandler(this.pboxCasilla4_Click);
             // 
             // pboxCasilla8
             // 
@@ -739,6 +780,7 @@
             this.pboxCasilla8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla8.TabIndex = 21;
             this.pboxCasilla8.TabStop = false;
+            this.pboxCasilla8.Click += new System.EventHandler(this.pboxCasilla8_Click);
             // 
             // pboxCasilla5
             // 
@@ -749,6 +791,7 @@
             this.pboxCasilla5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla5.TabIndex = 18;
             this.pboxCasilla5.TabStop = false;
+            this.pboxCasilla5.Click += new System.EventHandler(this.pboxCasilla5_Click);
             // 
             // pboxCasilla6
             // 
@@ -759,6 +802,7 @@
             this.pboxCasilla6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla6.TabIndex = 19;
             this.pboxCasilla6.TabStop = false;
+            this.pboxCasilla6.Click += new System.EventHandler(this.pboxCasilla6_Click);
             // 
             // pboxCasilla7
             // 
@@ -769,6 +813,7 @@
             this.pboxCasilla7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla7.TabIndex = 20;
             this.pboxCasilla7.TabStop = false;
+            this.pboxCasilla7.Click += new System.EventHandler(this.pboxCasilla7_Click);
             // 
             // Resultados
             // 
@@ -781,7 +826,7 @@
             this.Controls.Add(this.pboxSiguientePregunta);
             this.Controls.Add(this.pboxPreguntaAnterior);
             this.Controls.Add(this.pboxMensajeResultado);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblCorrectas);
             this.Controls.Add(this.lblIncorrectas);
             this.Controls.Add(this.lblRespuestaD);
             this.Controls.Add(this.lblRespuestaB);
@@ -846,8 +891,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla16)).EndInit();
             this.pnlPreguntas110.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxCasilla3)).EndInit();
@@ -881,7 +926,7 @@
         private System.Windows.Forms.Label lblRespuestaB;
         private System.Windows.Forms.Label lblRespuestaD;
         private System.Windows.Forms.Label lblIncorrectas;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCorrectas;
         private System.Windows.Forms.PictureBox pboxMensajeResultado;
         private System.Windows.Forms.PictureBox pboxSiguientePregunta;
         private System.Windows.Forms.PictureBox pboxPreguntaAnterior;
