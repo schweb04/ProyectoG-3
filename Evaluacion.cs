@@ -74,12 +74,12 @@ namespace SistemaEvaluacion
                     if (pregunta.RespuestasBarajeadas == null || pregunta.RespuestasBarajeadas.Count == 0)
                     {
                         List<string> respuestas = new List<string>
-                {
-                    pregunta.RespuestaCorrecta,
-                    pregunta.RespuestaIncorrecta1,
-                    pregunta.RespuestaIncorrecta2,
-                    pregunta.RespuestaIncorrecta3
-                };
+                        {
+                            pregunta.RespuestaCorrecta,
+                            pregunta.RespuestaIncorrecta1,
+                            pregunta.RespuestaIncorrecta2,
+                            pregunta.RespuestaIncorrecta3
+                        };
 
                         respuestas = respuestas.OrderBy(x => random.Next()).ToList();
 
@@ -115,7 +115,7 @@ namespace SistemaEvaluacion
             else
             {
                 // Manejo de error: No hay preguntas disponibles
-                // Puedes decidir qué hacer en este caso, como lanzar una excepción o mostrar un mensaje al usuario.
+                MessageBox.Show("No hay más preguntas disponibles");
             }
         }
         private List<Pregunta> ObtenerPreguntasAleatorias(int cantidad)

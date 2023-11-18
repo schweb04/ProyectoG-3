@@ -533,7 +533,7 @@ namespace SistemaEvaluacion
             this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
             this.lblRespuestaA.Location = new System.Drawing.Point(211, 352);
             this.lblRespuestaA.Name = "lblRespuestaA";
-            this.lblRespuestaA.Size = new System.Drawing.Size(179, 43);
+            this.lblRespuestaA.Size = new System.Drawing.Size(199, 52);
             this.lblRespuestaA.TabIndex = 42;
             this.lblRespuestaA.Text = "Respuesta A";
             this.lblRespuestaA.Click += new System.EventHandler(this.lblRespuestaA_Click);
@@ -543,9 +543,9 @@ namespace SistemaEvaluacion
             this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaC.Location = new System.Drawing.Point(490, 352);
+            this.lblRespuestaC.Location = new System.Drawing.Point(475, 352);
             this.lblRespuestaC.Name = "lblRespuestaC";
-            this.lblRespuestaC.Size = new System.Drawing.Size(183, 43);
+            this.lblRespuestaC.Size = new System.Drawing.Size(209, 52);
             this.lblRespuestaC.TabIndex = 43;
             this.lblRespuestaC.Text = "Respuesta C";
             this.lblRespuestaC.Click += new System.EventHandler(this.lblRespuestaC_Click);
@@ -555,9 +555,9 @@ namespace SistemaEvaluacion
             this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaB.Location = new System.Drawing.Point(211, 464);
+            this.lblRespuestaB.Location = new System.Drawing.Point(211, 454);
             this.lblRespuestaB.Name = "lblRespuestaB";
-            this.lblRespuestaB.Size = new System.Drawing.Size(179, 37);
+            this.lblRespuestaB.Size = new System.Drawing.Size(199, 56);
             this.lblRespuestaB.TabIndex = 44;
             this.lblRespuestaB.Text = "Respuesta B";
             this.lblRespuestaB.Click += new System.EventHandler(this.lblRespuestaB_Click);
@@ -567,9 +567,9 @@ namespace SistemaEvaluacion
             this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaD.Location = new System.Drawing.Point(490, 463);
+            this.lblRespuestaD.Location = new System.Drawing.Point(475, 454);
             this.lblRespuestaD.Name = "lblRespuestaD";
-            this.lblRespuestaD.Size = new System.Drawing.Size(183, 37);
+            this.lblRespuestaD.Size = new System.Drawing.Size(200, 56);
             this.lblRespuestaD.TabIndex = 45;
             this.lblRespuestaD.Text = "Respuesta D";
             this.lblRespuestaD.Click += new System.EventHandler(this.lblRespuestaD_Click);

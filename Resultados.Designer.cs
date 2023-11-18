@@ -153,52 +153,48 @@ namespace SistemaEvaluacion
             // 
             // lblRespuestaA
             // 
-            this.lblRespuestaA.AutoSize = true;
             this.lblRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(255)))), ((int)(((byte)(60)))));
             this.lblRespuestaA.Location = new System.Drawing.Point(145, 380);
             this.lblRespuestaA.Name = "lblRespuestaA";
-            this.lblRespuestaA.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaA.Size = new System.Drawing.Size(174, 50);
             this.lblRespuestaA.TabIndex = 46;
             this.lblRespuestaA.Text = "Respuesta A";
             this.lblRespuestaA.Click += new System.EventHandler(this.lblRespuestaA_Click);
             // 
             // lblRespuestaC
             // 
-            this.lblRespuestaC.AutoSize = true;
             this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
             this.lblRespuestaC.Location = new System.Drawing.Point(416, 380);
             this.lblRespuestaC.Name = "lblRespuestaC";
-            this.lblRespuestaC.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaC.Size = new System.Drawing.Size(184, 50);
             this.lblRespuestaC.TabIndex = 47;
             this.lblRespuestaC.Text = "Respuesta C";
             this.lblRespuestaC.Click += new System.EventHandler(this.lblRespuestaC_Click);
             // 
             // lblRespuestaB
             // 
-            this.lblRespuestaB.AutoSize = true;
             this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
             this.lblRespuestaB.Location = new System.Drawing.Point(145, 485);
             this.lblRespuestaB.Name = "lblRespuestaB";
-            this.lblRespuestaB.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaB.Size = new System.Drawing.Size(174, 51);
             this.lblRespuestaB.TabIndex = 48;
             this.lblRespuestaB.Text = "Respuesta B";
             this.lblRespuestaB.Click += new System.EventHandler(this.lblRespuestaB_Click);
             // 
             // lblRespuestaD
             // 
-            this.lblRespuestaD.AutoSize = true;
             this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
             this.lblRespuestaD.Location = new System.Drawing.Point(416, 485);
             this.lblRespuestaD.Name = "lblRespuestaD";
-            this.lblRespuestaD.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaD.Size = new System.Drawing.Size(184, 51);
             this.lblRespuestaD.TabIndex = 49;
             this.lblRespuestaD.Text = "Respuesta D";
             this.lblRespuestaD.Click += new System.EventHandler(this.lblRespuestaD_Click);
