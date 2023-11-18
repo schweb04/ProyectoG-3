@@ -564,7 +564,11 @@ namespace SistemaEvaluacion
 
         private void pboxAbandonar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult abandonar = MessageBox.Show("Estás seguro de abandonar el examen? Perderás todo tu progreso.");
+            if (abandonar == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
         private void PboxRespuesta_Click(object sender, EventArgs e)
         {
