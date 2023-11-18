@@ -17,6 +17,7 @@ namespace SistemaEvaluacion
         private int indiceActual = 0;
         private int preguntasCorrectas = 0;
         private int preguntasIncorrectas = 0;
+        private float calificacion = 0;
 
 
         public Resultados()
@@ -25,10 +26,10 @@ namespace SistemaEvaluacion
             preguntas = new List<Pregunta>();
             CargarDatosCasillas();
 
-            // Agrega un retraso de 1 segundos
-            Thread.Sleep(1000);
+            // Agrega un retraso de 1/2 segundo
+            Thread.Sleep(500);
             // Recorre todas las preguntas y verifica las respuestas
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < preguntas.Count; i++)
             {
                 VerificarRespuesta(i);
             }
@@ -37,72 +38,89 @@ namespace SistemaEvaluacion
         private void VerificarRespuesta(int preguntaActualIndex)
         {
             // Asegúrate de que la lista de preguntas esté cargada antes de acceder a una pregunta específica
-            if (preguntas != null && preguntas.Count > preguntaActualIndex)
+            if (preguntas == null || preguntas.Count <= preguntaActualIndex)
             {
-                Pregunta preguntaActual = preguntas[preguntaActualIndex]; // Ajusta el índice según la base cero
+                MessageBox.Show("Error al acceder a la pregunta actual. Asegúrate de cargar las preguntas correctamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-                // Obtiene la respuesta correcta directamente del archivo CSV
-                string rutaArchivo = "resultados.csv";
+            Pregunta preguntaActual = preguntas[preguntaActualIndex]; // Ajusta el índice según la base cero
 
-                if (File.Exists(rutaArchivo))
+            // Obtiene la respuesta correcta directamente del archivo CSV
+            string rutaArchivo = "resultados.csv";
+
+            try
+            {
+                if (!File.Exists(rutaArchivo))
                 {
-                    var lineaPregunta = File.ReadLines(rutaArchivo)
-                        .ElementAtOrDefault(preguntaActualIndex); // Obtener la línea de la pregunta actual
+                    MessageBox.Show("Error al acceder al archivo CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-                    if (lineaPregunta != null)
-                    {
-                        var campos = lineaPregunta.Split(',');
+                var lineaPregunta = File.ReadLines(rutaArchivo)
+                    .ElementAtOrDefault(preguntaActualIndex); // Obtener la línea de la pregunta actual
 
-                        // Obtener la respuesta correcta
-                        var respuestaCorrecta = campos.ElementAtOrDefault(1);
+                if (lineaPregunta == null)
+                {
+                    MessageBox.Show("Error al leer la pregunta del archivo CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-                        // Obtener la respuesta seleccionada y su texto correspondiente
-                        var respuestaSeleccionada = campos.ElementAtOrDefault(2);
+                var campos = lineaPregunta.Split(',');
 
-                        // Inicializa textoRespuestaSeleccionada
-                        var textoRespuestaSeleccionada = "";
+                // Obtener la respuesta correcta, la opción seleccionada y los textos de respuesta
+                var respuestaCorrecta = campos.ElementAtOrDefault(1);
+                var opcionSeleccionada = campos.ElementAtOrDefault(2);
+                var textoRespuestaA = campos.ElementAtOrDefault(3);
+                var textoRespuestaB = campos.ElementAtOrDefault(4);
+                var textoRespuestaC = campos.ElementAtOrDefault(5);
+                var textoRespuestaD = campos.ElementAtOrDefault(6);
 
-                        // Utiliza switch para determinar el texto de la respuesta seleccionada
-                        switch (respuestaSeleccionada)
-                        {
-                            case "A":
-                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(3);
-                                break;
-                            case "B":
-                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(4);
-                                break;
-                            case "C":
-                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(5);
-                                break;
-                            case "D":
-                                textoRespuestaSeleccionada = campos.ElementAtOrDefault(6);
-                                break;
-                        }
+                // Convertir la opción seleccionada en el texto correspondiente
+                string textoRespuestaSeleccionada;
 
-                        // Verifica si la respuesta seleccionada es correcta
-                        if (respuestaCorrecta != null && respuestaCorrecta == textoRespuestaSeleccionada)
-                        {
-                            preguntasCorrectas++;
-                        }
-                        else
-                        {
-                            preguntasIncorrectas++;
-                        }
+                switch (opcionSeleccionada)
+                {
+                    case "A":
+                        textoRespuestaSeleccionada = textoRespuestaA;
+                        break;
+                    case "B":
+                        textoRespuestaSeleccionada = textoRespuestaB;
+                        break;
+                    case "C":
+                        textoRespuestaSeleccionada = textoRespuestaC;
+                        break;
+                    case "D":
+                        textoRespuestaSeleccionada = textoRespuestaD;
+                        break;
+                    default:
+                        textoRespuestaSeleccionada = "No seleccionada";
+                        break;
+                }
 
-                        // Actualiza Labels
-                        lblCorrectas.Text = $"{preguntasCorrectas}";
-                        lblIncorrectas.Text = $"{preguntasIncorrectas}";
-                        lblPuntuacion.Text = $"{Math.Round(preguntasCorrectas * 3.33, 2)} Pts"; // Redondea a 2 decimales
-                    }
+                // Verificar la respuesta
+                if (textoRespuestaSeleccionada == "No seleccionada")
+                {
+                    preguntasIncorrectas++;
+                }
+                else if (!string.IsNullOrEmpty(respuestaCorrecta) &&
+                        respuestaCorrecta.Trim().Equals(textoRespuestaSeleccionada.Trim(), StringComparison.OrdinalIgnoreCase))
+                {
+                    preguntasCorrectas++;
                 }
                 else
                 {
-                    MessageBox.Show("Error al acceder al archivo CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    preguntasIncorrectas++;
                 }
+
+                // Actualiza Labels
+                lblCorrectas.Text = $"{preguntasCorrectas}";
+                lblIncorrectas.Text = $"{preguntasIncorrectas}";
+                lblPuntuacion.Text = $"{Math.Round(preguntasCorrectas * 3.33, 2)} Pts"; // Redondea a 2 decimales
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Error al acceder a la pregunta actual. Asegúrate de cargar las preguntas correctamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -298,8 +316,11 @@ namespace SistemaEvaluacion
             pnlPreguntas2130.Visible = false;
         }
 
-
-
+        private void pboxCasilla1_Click(object sender, EventArgs e)
+        {
+            indiceActual = 1;
+            MostrarPreguntaYRespuestas(1);
+        }
         private void pboxCasilla2_Click_1(object sender, EventArgs e)
         {
             indiceActual = 2;
@@ -512,7 +533,7 @@ namespace SistemaEvaluacion
             else
             {
                 // Si es la primera casilla, vuelve a la última
-                ActualizarIndiceCasilla(preguntas.Count - 1);
+                ActualizarIndiceCasilla(preguntas.Count); //-1???
             }
 
             ActualizarPanelPreguntas();
@@ -555,12 +576,6 @@ namespace SistemaEvaluacion
         {
 
         }
-
-        private void pboxCasilla1_Click(object sender, EventArgs e)
-        {
-            MostrarPreguntaYRespuestas(1);
-        }
-
 
         private void lblRespuestaA_Click(object sender, EventArgs e)
         {
