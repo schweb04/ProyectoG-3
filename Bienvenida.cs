@@ -19,6 +19,7 @@ namespace SistemaEvaluacion
 
         private void pboxIniciarExamen_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Evaluacion examen = new Evaluacion();
             examen.ShowDialog();
         }
@@ -27,6 +28,7 @@ namespace SistemaEvaluacion
         {
             Instrucciones instrucciones = new Instrucciones();
             instrucciones.ShowDialog();
+            this.Hide();
         }
     }
 }

@@ -35,6 +35,14 @@ namespace SistemaEvaluacion
             }
         }
 
+        private void Resultados_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            this.Close();
+            Evaluacion evaluacion = new Evaluacion();
+            evaluacion.Show();
+        
+        }
         private void VerificarRespuesta(int preguntaActualIndex)
         {
             // Asegúrate de que la lista de preguntas esté cargada antes de acceder a una pregunta específica
@@ -496,12 +504,16 @@ namespace SistemaEvaluacion
         }
 
         private void pboxRepetir_Click(object sender, EventArgs e)
-        {
-
+        {         
+            Evaluacion evaluacion = new Evaluacion();
+            evaluacion.Show();
+            this.Close();
         }
 
         private void pboxFinalizar_Click(object sender, EventArgs e)
         {
+            Bienvenida bienvenida = new Bienvenida();
+            bienvenida.Show();
             this.Close();
         }
         private void ActualizarIndiceCasilla(int nuevoIndice)

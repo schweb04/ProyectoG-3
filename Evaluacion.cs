@@ -34,6 +34,13 @@ namespace SistemaEvaluacion
             tiempoRestanteEnSegundos = 30 * 60; // 30 minutos en segundos
             ConfigurarTemporizador();
         }
+
+        private void Evaluacion_FormClosing(object sender, FormClosingEventArgs e)
+        { 
+            this.Close();
+            Bienvenida bienvenida = new Bienvenida();
+            bienvenida.ShowDialog();
+        }
         private void ConfigurarTemporizador()
         {
             temporizador = new Timer();
@@ -574,6 +581,9 @@ namespace SistemaEvaluacion
             DialogResult abandonar = MessageBox.Show("Estás seguro de abandonar el examen? Perderás todo tu progreso.");
             if (abandonar == DialogResult.OK)
             {
+                
+                Bienvenida bienvenida = new Bienvenida();
+                bienvenida.Show();
                 this.Close();
             }
         }

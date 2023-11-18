@@ -15,11 +15,24 @@ namespace SistemaEvaluacion
         public Instrucciones()
         {
             InitializeComponent();
+            
         }
+
+        private void Instrucciones_FormClosing(object sender, FormClosingEventArgs e)
+        {
+          e.Cancel = true;
+          Bienvenida bienvenida = new Bienvenida();
+          bienvenida.Show();
+
+        }
+        
 
         private void pboxEntendido_Click(object sender, EventArgs e)
         {
             this.Close();
+            Bienvenida bienvenida = new Bienvenida();
+            bienvenida.Show();
+            
         }
 
         private void Instrucciones_Load(object sender, EventArgs e)
