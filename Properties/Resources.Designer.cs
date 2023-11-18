@@ -1013,16 +1013,6 @@ namespace SistemaEvaluacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Preguntas_Respuestas_SeleccionadaR {
-            get {
-                object obj = ResourceManager.GetObject("Preguntas_Respuestas_SeleccionadaR", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Preguntas_Respuestas_Vacio {
             get {
                 object obj = ResourceManager.GetObject("Preguntas_Respuestas-Vacio", resourceCulture);
@@ -1036,16 +1026,6 @@ namespace SistemaEvaluacion.Properties {
         internal static System.Drawing.Bitmap Preguntas_Respuestas_Vacio__2_ {
             get {
                 object obj = ResourceManager.GetObject("Preguntas_Respuestas-Vacio (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Preguntas_Respuestas_Vacio__2_1 {
-            get {
-                object obj = ResourceManager.GetObject("Preguntas_Respuestas-Vacio (2)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

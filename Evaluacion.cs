@@ -104,27 +104,25 @@ namespace SistemaEvaluacion
                 PreguntasAleatoriasIniciadas = true;
             }
 
-            try
+            if (preguntasMostradas.Count > 0)
             {
-                if (preguntasMostradas.Count > 0)
-                {
-                    preguntaActualIndex = preguntaActualIndex % preguntasMostradas.Count;
-                    MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[preguntaActualIndex]);
+                preguntaActualIndex = preguntaActualIndex % preguntasMostradas.Count;
+                MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[preguntaActualIndex]);
 
-                    // Incrementa el índice para la siguiente pregunta
-                    preguntaActualIndex++;
-                }
+                // Incrementa el índice para la siguiente pregunta
+                preguntaActualIndex++;
             }
-            catch(Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message, "Error al inicializar pregunta", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            } 
+                // Manejo de error: No hay preguntas disponibles
+                MessageBox.Show("No hay más preguntas disponibles");
+            }
         }
         private List<Pregunta> ObtenerPreguntasAleatorias(int cantidad)
         {
             Random random = new Random();
 
-            try
+            if (preguntas != null && preguntas.Any())
             {
                 // Filtra las preguntas no seleccionadas o reinicia el estado de selección si es necesario
                 var preguntasDisponibles = preguntas.Where(p => !p.Seleccionada).ToList();
@@ -146,11 +144,10 @@ namespace SistemaEvaluacion
 
                 return preguntasSeleccionadas;
             }
-            catch(Exception ex)
+            else
             {
                 // Manejo de error: La lista de preguntas está vacía o nula
                 // Puedes decidir qué hacer en este caso, como lanzar una excepción o devolver una lista vacía.
-                MessageBox.Show(ex.Message, "Error en la lista de preguntas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return new List<Pregunta>();
             }
         }
@@ -189,10 +186,10 @@ namespace SistemaEvaluacion
             }
 
             // Configura las respuestas en los controles correspondientes
-            buttonRespuestaA.Text = pregunta.RespuestasBarajeadas[0];
-            buttonRespuestaB.Text = pregunta.RespuestasBarajeadas[1];
-            buttonRespuestaC.Text = pregunta.RespuestasBarajeadas[2];
-            buttonRespuestaD.Text = pregunta.RespuestasBarajeadas[3];
+            lblRespuestaA.Text = pregunta.RespuestasBarajeadas[0];
+            lblRespuestaB.Text = pregunta.RespuestasBarajeadas[1];
+            lblRespuestaC.Text = pregunta.RespuestasBarajeadas[2];
+            lblRespuestaD.Text = pregunta.RespuestasBarajeadas[3];
 
             // Verifica si el usuario ya ha seleccionado una respuesta previamente
             if (!string.IsNullOrEmpty(pregunta.RespuestaSeleccionada))
@@ -207,16 +204,16 @@ namespace SistemaEvaluacion
             switch (respuesta)
             {
                 case "A":
-                    buttonRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_SeleccionadaR;
+                    pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
                     break;
                 case "B":
-                    buttonRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_SeleccionadaR;
+                    pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
                     break;
                 case "C":
-                    buttonRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_SeleccionadaR;
+                    pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
                     break;
                 case "D":
-                    buttonRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_SeleccionadaR;
+                    pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Seleccionada__2_;
                     break;
             }
         }
@@ -224,10 +221,10 @@ namespace SistemaEvaluacion
 
         private void ReiniciarAparienciaRespuestas()
         {
-            buttonRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
-            buttonRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
-            buttonRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
-            buttonRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
+            pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
+            pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
         }
         private void InicializarCasillas()
         {
@@ -254,55 +251,47 @@ namespace SistemaEvaluacion
         {
             preguntas = new List<Pregunta>();
 
-            try
+            using (TextFieldParser parser = new TextFieldParser("Preguntas.csv"))
             {
-                using (TextFieldParser parser = new TextFieldParser("Preguntas.csv"))
+                parser.TextFieldType = FieldType.Delimited;
+                parser.SetDelimiters(",");
+
+                // Saltar la línea de encabezado
+                parser.ReadLine();
+
+                while (!parser.EndOfData)
                 {
-                    parser.TextFieldType = FieldType.Delimited;
-                    parser.SetDelimiters(",");
-
-                    // Saltar la línea de encabezado
-                    parser.ReadLine();
-
-                    while (!parser.EndOfData)
+                    string[] fields = parser.ReadFields();
+                    if (fields.Length == 7)
                     {
-                        string[] fields = parser.ReadFields();
-                        if (fields.Length == 7)
+                        preguntas.Add(new Pregunta
                         {
-                            preguntas.Add(new Pregunta
-                            {
-                                ID = fields[0],
-                                PreguntaTexto = fields[1],
-                                RespuestaCorrecta = fields[2],
-                                RespuestaIncorrecta1 = fields[3],
-                                RespuestaIncorrecta2 = fields[4],
-                                RespuestaIncorrecta3 = fields[5],
-                                Puntuacion = fields[6],
-                                RespuestaSeleccionada = "No seleccionada"
-                            });
-                        }
+                            ID = fields[0],
+                            PreguntaTexto = fields[1],
+                            RespuestaCorrecta = fields[2],
+                            RespuestaIncorrecta1 = fields[3],
+                            RespuestaIncorrecta2 = fields[4],
+                            RespuestaIncorrecta3 = fields[5],
+                            Puntuacion = fields[6],
+                            RespuestaSeleccionada = "No seleccionada"
+                        });
                     }
                 }
-            }
-            catch(Exception e) 
-            {
-                MessageBox.Show(e.Message,"Error al inicializar pregunta",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                this.Close();
             }
         }
         private void MostrarPreguntasAleatorias()
         {
-            try
+            if (preguntas != null && preguntas.Any())
             {
                 Random random = new Random();
                 preguntasMostradas = preguntas.OrderBy(x => random.Next()).Take(30).ToList();
 
                 // Mostrar la primera pregunta
-                MostrarPreguntaEnCasilla(preguntaActualIndex + 1, preguntasMostradas[0]);
+                MostrarPreguntaEnCasilla(preguntaActualIndex+1, preguntasMostradas[0]);
             }
-            catch (Exception e)
+            else
             {
-                MessageBox.Show(e.Message,"Error al mostrar preguntas aleatorias",MessageBoxButtons.OK,MessageBoxIcon.Error);
+
             }
         }
 
@@ -579,10 +568,10 @@ namespace SistemaEvaluacion
         }
         private void PboxRespuesta_Click(object sender, EventArgs e)
         {
-            Button clickedRespuesta = (Button)sender;
+            PictureBox clickedRespuesta = (PictureBox)sender;
 
             // Obtén la letra de la respuesta desde el nombre del PictureBox
-            string letraRespuesta = clickedRespuesta.Name;
+            string letraRespuesta = clickedRespuesta.Name.Replace("pboxRespuesta", "");
 
             // Actualiza la propiedad RespuestaSeleccionada de la pregunta actual
             preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = letraRespuesta;
@@ -672,54 +661,6 @@ namespace SistemaEvaluacion
         private void pboxPregunta_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void buttonRespuesta_Click(object sender, EventArgs e)
-        {
-            // Actualiza la respuesta seleccionada por el usuario
-            preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = "A";
-
-            // Restablece la apariencia de las respuestas
-            ReiniciarAparienciaRespuestas();
-
-            // Marca la respuesta seleccionada por el usuario
-            MarcarRespuestaSeleccionada("A");
-        }
-
-        private void buttonRespuestaC_Click(object sender, EventArgs e)
-        {
-            // Actualiza la respuesta seleccionada por el usuario
-            preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = "C";
-
-            // Restablece la apariencia de las respuestas
-            ReiniciarAparienciaRespuestas();
-
-            // Marca la respuesta seleccionada por el usuario
-            MarcarRespuestaSeleccionada("C");
-        }
-
-        private void buttonRespuestaB_Click(object sender, EventArgs e)
-        {// Actualiza la respuesta seleccionada por el usuario
-            preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = "B";
-
-            // Restablece la apariencia de las respuestas
-            ReiniciarAparienciaRespuestas();
-
-            // Marca la respuesta seleccionada por el usuario
-            MarcarRespuestaSeleccionada("B");
-
-        }
-
-        private void buttonRespuestaD_Click(object sender, EventArgs e)
-        {
-            // Actualiza la respuesta seleccionada por el usuario
-            preguntasMostradas[preguntaActualIndex].RespuestaSeleccionada = "D";
-
-            // Restablece la apariencia de las respuestas
-            ReiniciarAparienciaRespuestas();
-
-            // Marca la respuesta seleccionada por el usuario
-            MarcarRespuestaSeleccionada("D");
         }
     }
 }

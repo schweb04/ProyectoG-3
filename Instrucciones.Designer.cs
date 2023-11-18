@@ -66,10 +66,9 @@
             this.lblTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblTiempo.Font = new System.Drawing.Font("Century", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
-            this.lblTiempo.Location = new System.Drawing.Point(937, 501);
-            this.lblTiempo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTiempo.Location = new System.Drawing.Point(703, 407);
             this.lblTiempo.Name = "lblTiempo";
-            this.lblTiempo.Size = new System.Drawing.Size(61, 18);
+            this.lblTiempo.Size = new System.Drawing.Size(52, 16);
             this.lblTiempo.TabIndex = 56;
             this.lblTiempo.Text = "30 min";
             // 
@@ -77,10 +76,9 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pictureBox3.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pictureBox3.Location = new System.Drawing.Point(881, 295);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(661, 240);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(239, 164);
+            this.pictureBox3.Size = new System.Drawing.Size(179, 133);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 62;
             this.pictureBox3.TabStop = false;
@@ -89,10 +87,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pictureBox2.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(617, 295);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(463, 240);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(239, 164);
+            this.pictureBox2.Size = new System.Drawing.Size(179, 133);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 61;
             this.pictureBox2.TabStop = false;
@@ -101,10 +98,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pictureBox1.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(353, 295);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(265, 240);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(239, 164);
+            this.pictureBox1.Size = new System.Drawing.Size(179, 133);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 60;
             this.pictureBox1.TabStop = false;
@@ -113,10 +109,9 @@
             // 
             this.pboxTemporizador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxTemporizador.Image = global::SistemaEvaluacion.Properties.Resources.Evaluacion_Temporizador;
-            this.pboxTemporizador.Location = new System.Drawing.Point(925, 482);
-            this.pboxTemporizador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxTemporizador.Location = new System.Drawing.Point(694, 392);
             this.pboxTemporizador.Name = "pboxTemporizador";
-            this.pboxTemporizador.Size = new System.Drawing.Size(156, 62);
+            this.pboxTemporizador.Size = new System.Drawing.Size(117, 50);
             this.pboxTemporizador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxTemporizador.TabIndex = 55;
             this.pboxTemporizador.TabStop = false;
@@ -125,10 +120,9 @@
             // 
             this.pboxCasilla30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxCasilla30.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector30;
-            this.pboxCasilla30.Location = new System.Drawing.Point(432, 466);
-            this.pboxCasilla30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxCasilla30.Location = new System.Drawing.Point(324, 379);
             this.pboxCasilla30.Name = "pboxCasilla30";
-            this.pboxCasilla30.Size = new System.Drawing.Size(75, 78);
+            this.pboxCasilla30.Size = new System.Drawing.Size(56, 63);
             this.pboxCasilla30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla30.TabIndex = 51;
             this.pboxCasilla30.TabStop = false;
@@ -137,10 +131,9 @@
             // 
             this.pboxPreguntas110.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxPreguntas110.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_1_10;
-            this.pboxPreguntas110.Location = new System.Drawing.Point(95, 476);
-            this.pboxPreguntas110.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxPreguntas110.Location = new System.Drawing.Point(71, 387);
             this.pboxPreguntas110.Name = "pboxPreguntas110";
-            this.pboxPreguntas110.Size = new System.Drawing.Size(239, 68);
+            this.pboxPreguntas110.Size = new System.Drawing.Size(179, 55);
             this.pboxPreguntas110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPreguntas110.TabIndex = 50;
             this.pboxPreguntas110.TabStop = false;
@@ -149,10 +142,9 @@
             // 
             this.pboxSiguientePregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxSiguientePregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Siguiente;
-            this.pboxSiguientePregunta.Location = new System.Drawing.Point(764, 482);
-            this.pboxSiguientePregunta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxSiguientePregunta.Location = new System.Drawing.Point(573, 392);
             this.pboxSiguientePregunta.Name = "pboxSiguientePregunta";
-            this.pboxSiguientePregunta.Size = new System.Drawing.Size(92, 62);
+            this.pboxSiguientePregunta.Size = new System.Drawing.Size(69, 50);
             this.pboxSiguientePregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxSiguientePregunta.TabIndex = 49;
             this.pboxSiguientePregunta.TabStop = false;
@@ -161,10 +153,9 @@
             // 
             this.pboxPreguntaAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxPreguntaAnterior.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Anterior;
-            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(617, 482);
-            this.pboxPreguntaAnterior.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(463, 392);
             this.pboxPreguntaAnterior.Name = "pboxPreguntaAnterior";
-            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(92, 62);
+            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(69, 50);
             this.pboxPreguntaAnterior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPreguntaAnterior.TabIndex = 48;
             this.pboxPreguntaAnterior.TabStop = false;
@@ -173,10 +164,9 @@
             // 
             this.pboxInstruccionesControles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pboxInstruccionesControles.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Instrucciones_Textbox__2_;
-            this.pboxInstruccionesControles.Location = new System.Drawing.Point(95, 295);
-            this.pboxInstruccionesControles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxInstruccionesControles.Location = new System.Drawing.Point(71, 240);
             this.pboxInstruccionesControles.Name = "pboxInstruccionesControles";
-            this.pboxInstruccionesControles.Size = new System.Drawing.Size(239, 164);
+            this.pboxInstruccionesControles.Size = new System.Drawing.Size(179, 133);
             this.pboxInstruccionesControles.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxInstruccionesControles.TabIndex = 44;
             this.pboxInstruccionesControles.TabStop = false;
@@ -185,10 +175,9 @@
             // 
             this.pboxInstruccionesDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxInstruccionesDescripcion.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Descripcion__2_;
-            this.pboxInstruccionesDescripcion.Location = new System.Drawing.Point(16, 59);
-            this.pboxInstruccionesDescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxInstruccionesDescripcion.Location = new System.Drawing.Point(12, 48);
             this.pboxInstruccionesDescripcion.Name = "pboxInstruccionesDescripcion";
-            this.pboxInstruccionesDescripcion.Size = new System.Drawing.Size(1183, 210);
+            this.pboxInstruccionesDescripcion.Size = new System.Drawing.Size(887, 171);
             this.pboxInstruccionesDescripcion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxInstruccionesDescripcion.TabIndex = 43;
             this.pboxInstruccionesDescripcion.TabStop = false;
@@ -196,12 +185,10 @@
             // pboxEntendido
             // 
             this.pboxEntendido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.pboxEntendido.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxEntendido.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Boton_Entendido;
-            this.pboxEntendido.Location = new System.Drawing.Point(801, 598);
-            this.pboxEntendido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pboxEntendido.Location = new System.Drawing.Point(601, 486);
             this.pboxEntendido.Name = "pboxEntendido";
-            this.pboxEntendido.Size = new System.Drawing.Size(280, 76);
+            this.pboxEntendido.Size = new System.Drawing.Size(210, 62);
             this.pboxEntendido.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxEntendido.TabIndex = 42;
             this.pboxEntendido.TabStop = false;
@@ -213,9 +200,8 @@
             this.pboxEvaluacionFondo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pboxEvaluacionFondo.Image = global::SistemaEvaluacion.Properties.Resources.Instrucciones_Ultimo_Fondo;
             this.pboxEvaluacionFondo.Location = new System.Drawing.Point(0, 0);
-            this.pboxEvaluacionFondo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxEvaluacionFondo.Name = "pboxEvaluacionFondo";
-            this.pboxEvaluacionFondo.Size = new System.Drawing.Size(1215, 703);
+            this.pboxEvaluacionFondo.Size = new System.Drawing.Size(911, 571);
             this.pboxEvaluacionFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxEvaluacionFondo.TabIndex = 59;
             this.pboxEvaluacionFondo.TabStop = false;
@@ -225,10 +211,9 @@
             this.lblInstruccionesDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblInstruccionesDescripcion.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInstruccionesDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblInstruccionesDescripcion.Location = new System.Drawing.Point(40, 92);
-            this.lblInstruccionesDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblInstruccionesDescripcion.Location = new System.Drawing.Point(30, 75);
             this.lblInstruccionesDescripcion.Name = "lblInstruccionesDescripcion";
-            this.lblInstruccionesDescripcion.Size = new System.Drawing.Size(1137, 143);
+            this.lblInstruccionesDescripcion.Size = new System.Drawing.Size(853, 116);
             this.lblInstruccionesDescripcion.TabIndex = 63;
             this.lblInstruccionesDescripcion.Text = "Descripcion";
             // 
@@ -237,10 +222,9 @@
             this.lblBoton10en10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblBoton10en10.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBoton10en10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblBoton10en10.Location = new System.Drawing.Point(117, 331);
-            this.lblBoton10en10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBoton10en10.Location = new System.Drawing.Point(88, 269);
             this.lblBoton10en10.Name = "lblBoton10en10";
-            this.lblBoton10en10.Size = new System.Drawing.Size(189, 81);
+            this.lblBoton10en10.Size = new System.Drawing.Size(142, 66);
             this.lblBoton10en10.TabIndex = 64;
             this.lblBoton10en10.Text = "Bla";
             // 
@@ -249,10 +233,9 @@
             this.lblCasilla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblCasilla.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCasilla.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblCasilla.Location = new System.Drawing.Point(353, 332);
-            this.lblCasilla.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCasilla.Location = new System.Drawing.Point(265, 270);
             this.lblCasilla.Name = "lblCasilla";
-            this.lblCasilla.Size = new System.Drawing.Size(239, 80);
+            this.lblCasilla.Size = new System.Drawing.Size(179, 65);
             this.lblCasilla.TabIndex = 65;
             this.lblCasilla.Text = "Bla bla";
             // 
@@ -261,10 +244,9 @@
             this.lblTemporizadorDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblTemporizadorDescripcion.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTemporizadorDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblTemporizadorDescripcion.Location = new System.Drawing.Point(907, 331);
-            this.lblTemporizadorDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTemporizadorDescripcion.Location = new System.Drawing.Point(680, 269);
             this.lblTemporizadorDescripcion.Name = "lblTemporizadorDescripcion";
-            this.lblTemporizadorDescripcion.Size = new System.Drawing.Size(189, 81);
+            this.lblTemporizadorDescripcion.Size = new System.Drawing.Size(142, 66);
             this.lblTemporizadorDescripcion.TabIndex = 66;
             this.lblTemporizadorDescripcion.Text = "Bla bla bla bla";
             // 
@@ -273,18 +255,17 @@
             this.lblRetrocederAvanzar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRetrocederAvanzar.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRetrocederAvanzar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRetrocederAvanzar.Location = new System.Drawing.Point(643, 331);
-            this.lblRetrocederAvanzar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRetrocederAvanzar.Location = new System.Drawing.Point(482, 269);
             this.lblRetrocederAvanzar.Name = "lblRetrocederAvanzar";
-            this.lblRetrocederAvanzar.Size = new System.Drawing.Size(189, 81);
+            this.lblRetrocederAvanzar.Size = new System.Drawing.Size(142, 66);
             this.lblRetrocederAvanzar.TabIndex = 67;
             this.lblRetrocederAvanzar.Text = "Bla bla bla";
             // 
             // Instrucciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 703);
+            this.ClientSize = new System.Drawing.Size(911, 571);
             this.Controls.Add(this.lblRetrocederAvanzar);
             this.Controls.Add(this.lblTemporizadorDescripcion);
             this.Controls.Add(this.lblCasilla);
@@ -303,7 +284,6 @@
             this.Controls.Add(this.pboxInstruccionesDescripcion);
             this.Controls.Add(this.pboxEntendido);
             this.Controls.Add(this.pboxEvaluacionFondo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Instrucciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Instrucciones";
