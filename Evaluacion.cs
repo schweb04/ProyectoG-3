@@ -251,32 +251,39 @@ namespace SistemaEvaluacion
         {
             preguntas = new List<Pregunta>();
 
-            using (TextFieldParser parser = new TextFieldParser("Preguntas.csv"))
+            try
             {
-                parser.TextFieldType = FieldType.Delimited;
-                parser.SetDelimiters(",");
-
-                // Saltar la línea de encabezado
-                parser.ReadLine();
-
-                while (!parser.EndOfData)
+                using (TextFieldParser parser = new TextFieldParser("Preguntas.csv"))
                 {
-                    string[] fields = parser.ReadFields();
-                    if (fields.Length == 7)
+                    parser.TextFieldType = FieldType.Delimited;
+                    parser.SetDelimiters(",");
+
+                    // Saltar la línea de encabezado
+                    parser.ReadLine();
+
+                    while (!parser.EndOfData)
                     {
-                        preguntas.Add(new Pregunta
+                        string[] fields = parser.ReadFields();
+                        if (fields.Length == 7)
                         {
-                            ID = fields[0],
-                            PreguntaTexto = fields[1],
-                            RespuestaCorrecta = fields[2],
-                            RespuestaIncorrecta1 = fields[3],
-                            RespuestaIncorrecta2 = fields[4],
-                            RespuestaIncorrecta3 = fields[5],
-                            Puntuacion = fields[6],
-                            RespuestaSeleccionada = "No seleccionada"
-                        });
+                            preguntas.Add(new Pregunta
+                            {
+                                ID = fields[0],
+                                PreguntaTexto = fields[1],
+                                RespuestaCorrecta = fields[2],
+                                RespuestaIncorrecta1 = fields[3],
+                                RespuestaIncorrecta2 = fields[4],
+                                RespuestaIncorrecta3 = fields[5],
+                                Puntuacion = fields[6],
+                                RespuestaSeleccionada = "No seleccionada"
+                            });
+                        }
                     }
                 }
+            }
+            catch(Exception e) 
+            {
+                MessageBox.Show(e.Message,"Error al inicializar preguntas", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void MostrarPreguntasAleatorias()
@@ -663,6 +670,11 @@ namespace SistemaEvaluacion
         }
 
         private void pboxPregunta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlPreguntas2130_Paint(object sender, PaintEventArgs e)
         {
 
         }
