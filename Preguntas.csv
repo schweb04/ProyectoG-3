@@ -1,0 +1,71 @@
+ID, Pregunta, Respuesta correcta, Respuesta incorrecta 1, Respuesta incorrecta 2, Respuesta incorrecta 3, Puntuacion
+1, Que significa CPU?, Central Processing Unit, Computer Personal Unit, Central Process Unit, Central Processor Unit, 1
+2, ¿Sistema operativo predeterminado en la mayoria de las PC?, Windows, macOS, Linux, Android, 1
+3, ¿Proposito de un firewall en una red?, Proteger contra amenazas, Mejorar velocidad de conexion, Filtrar publicidad, Ampliar memoria RAM, 2
+4, ¿Significado de HTML en desarrollo web?, HyperText Markup Language, High-Level Programming Language, Human-Technology Modeling Language, HyperTransfer and Multimedia Language, 1
+5, ¿Protocolo de transferencia de archivos mas comun?, FTP, HTTP, SMTP, TCP, 1
+6, ¿Que significa RAM en informatica?, Random Access Memory, Read-Only Memory, Real-time Application Memory, Remote Administration Module, 1
+7, ¿Proposito principal de un router en red domestica?, Dirigir trafico de red, Almacenar archivos, Imprimir documentos, Escanear virus, 2
+8, ¿Que es un virus informatico?, Software malicioso, Programa de seguridad, Dispositivo de almacenamiento, Herramienta de desarrollo, 1
+9, ¿Lenguaje de programacion de Android?, Java, Swift, C++, Python, 1
+10, ¿Que es un SSD en almacenamiento de datos?, Solid State Drive, Super Speed Disk, System Storage Device, Software Storage Drive, 1
+11, ¿Sigla de direccion IP?, IP, URL, HTML, DNS, 1
+12, ¿Que es un navegador web?, Aplicacion para acceder a internet, Software de edicion de fotos, Sistema operativo, Reproductor de musica, 1
+13, ¿Cual es el formato de imagen mas comun en la web?, JPEG, GIF, TIFF, BMP, 1
+14, ¿En que se utiliza el protocolo HTTPS?, Seguridad en la transferencia de datos, Envio de correos electronicos, Acceso remoto, Transmision de videos, 2
+15, ¿Que es un archivo ZIP?, Archivo comprimido, Documento de texto, Imagen, Video, 1
+16, ¿Que es un archivo PDF?, Portable Document Format, Personal Document File, Print Document Format, Program Data File, 1
+17, ¿Cual es el proposito de un programa antivirus?, Detectar y eliminar virus, Mejorar la velocidad de la computadora, Organizar archivos, Crear contrasenas, 1
+18, ¿Que significa USB?, Universal Serial Bus, United Service Box, Ultra Speed Band, Universal Software Base, 1
+19, ¿En que se utiliza el protocolo DNS?, Traduccion de nombres de dominio a direcciones IP, Transferencia de archivos, Acceso remoto, Seguridad en linea, 2
+20, ¿Que es un servidor web?, Computadora que almacena y distribuye paginas web, Software de edicion de imagenes, Aplicacion de mensajeria, Programa de diseno grafico, 2
+21, ¿Cual es el proposito de un sistema operativo?, Gestionar recursos y facilitar la interaccion del usuario, Reproducir musica, Crear presentaciones, Navegar por internet, 1
+22, ¿Que es un programa de codigo abierto?, Software cuyo codigo fuente es accesible y modificable, Software protegido por derechos de autor, Programa que funciona sin conexion a internet, Aplicacion movil, 2
+23, ¿Que es un ransomware?, Tipo de malware que cifra archivos y pide un rescate, Programa de seguridad, Dispositivo de almacenamiento, Herramienta de desarrollo, 2
+24, ¿Cual es la funcion principal de un gestor de contrasenas?, Almacenar y proteger contrasenas, Crear cuentas de correo electronico, Escanear virus, Optimizar el rendimiento del sistema, 1
+25, ¿Que es el phishing?, Intento de enganar a personas para obtener informacion confidencial, Tecnica de edicion de fotos, Metodo de compresion de archivos, Tipo de virus informatico, 2
+26, ¿Cual es el proposito de un programa de copia de seguridad?, Resguardar datos para su recuperacion en caso de perdida, Mejorar la velocidad de la conexion, Organizar carpetas, Crear documentos de texto, 1
+27, ¿Que significa HTML5 en desarrollo web?, Quinta version de HyperText Markup Language, High-Level Technology and Multimedia Language, Human Technology Modeling Language 5, HyperTransfer and Multimedia Language 5, 1
+28, ¿Cual es el proposito de un SSD en una computadora?, Mejorar la velocidad de lectura/escritura de datos, Aumentar la cantidad de RAM, Reproducir videos en alta definicion, Almacenar grandes cantidades de musica, 1
+29, ¿Que es un router inalambrico?, Dispositivo que permite conexion a internet sin cables, Impresora que funciona sin tinta, Altavoz Bluetooth, Camara de seguridad, 1
+30, ¿Cual es el significado de la sigla URL?, Uniform Resource Locator, Universal Resource Language, User Recognition Link, Unilateral Resource Locator, 1
+31, ¿Que es un archivo GIF?, Formato de imagen animada, Documento de texto, Archivo de audio, Archivo comprimido, 1
+32, ¿En que consiste la computacion en la nube?, Acceso a servicios y almacenamiento a traves de internet, Uso de computadoras sin conexion a la red, Desarrollo de programas sin codigo, Creacion de hardware personalizado, 2
+33, ¿Cual es el proposito de un programa de edicion de texto?, Crear y modificar documentos de texto, Reproducir videos, Mejorar la velocidad de la conexion, Escanear virus, 1
+34, ¿Que es un algoritmo?, Conjunto de pasos para realizar una tarea, Tipo de virus informatico, Archivo de audio, Protocolo de red, 1
+35, ¿En que consiste la realidad virtual?, Entorno simulado por computadora, Proceso de mejorar la velocidad de la computadora, Metodo de compresion de archivos, Tipo de virus informatico, 2
+36, ¿Que es un programa de codigo ejecutable?, Software que puede ser ejecutado por la computadora, Archivo de imagen, Archivo de audio, Documento de texto, 1
+37, ¿Cual es la funcion principal de un sistema de archivos?, Organizar y almacenar datos en dispositivos de almacenamiento, Reproducir musica, Crear presentaciones, Navegar por internet, 1
+38, ¿Que es el Bluetooth?, Tecnologia de comunicacion inalambrica, Metodo de compresion de archivos, Software antivirus, Sistema operativo, 1
+39, ¿Cual es el proposito de un programa de diseno grafico?, Crear y editar graficos y elementos visuales, Reproducir videos, Escanear virus, Mejorar la velocidad de la conexion, 1
+40, ¿Que significa HTTP en una URL?, Hypertext Transfer Protocol, HyperText Markup Language, High-Level Technology and Multimedia Language, Human Technology Modeling Language, 1
+41, ¿Cual es la funcion principal de un programa de hoja de calculo?, Organizar datos en forma de tablas y realizar calculos, Reproducir musica, Crear presentaciones, Navegar por internet, 1
+42, ¿Que es un servidor de correo electronico?, Computadora que gestiona el envio y recepcion de correos, Dispositivo de almacenamiento, Programa de diseno grafico, Herramienta de desarrollo, 2
+43, ¿Cual es la diferencia entre hardware y software?, Hardware son componentes fisicos, Software son programas y aplicaciones, Hardware y software son lo mismo, Hardware es software malicioso, 1
+44, ¿Que es un navegador de internet?, Aplicacion para acceder a paginas web, Reproductor de musica, Sistema operativo, Software de seguridad, 1
+45, ¿Cual es el proposito de un programa de compresion de archivos?, Reducir el tamano de archivos para ahorrar espacio, Aumentar la velocidad de la conexion, Crear presentaciones, Escanear virus, 1
+46, ¿Que es un programa de reconocimiento de voz?, Software que convierte voz en texto o comandos, Reproductor de musica, Programa de edicion de imagenes, Juego en linea, 2
+47, ¿Que es un dominio de internet?, Identificador unico en la red, Archivo de audio, Documento de texto, Imagen, 1
+48, ¿Cual es el proposito de un programa de edicion de imagenes?, Modificar y mejorar imagenes digitales, Reproducir videos, Escanear virus, Mejorar la velocidad de la conexion, 1
+49, ¿Que es un malware?, Software malicioso, Programa de seguridad, Dispositivo de almacenamiento, Herramienta de desarrollo, 1
+50, ¿Cual es el sistema de archivos mas comun en sistemas operativos Windows?, NTFS, FAT32, ext4, HFS+, 1
+51, ¿Que es un programa de mensajeria instantanea?, Aplicacion para enviar mensajes en tiempo real, Reproductor de musica, Programa de edicion de imagenes, Juego en linea, 1
+52, ¿Cual es el proposito de un programa de reconocimiento facial?, Identificar personas a traves de imagenes, Mejorar la velocidad de la computadora, Crear presentaciones, Navegar por internet, 2
+53, ¿Que es un proxy?, Intermediario entre el usuario y la red, Archivo de audio, Documento de texto, Imagen, 1
+54, ¿Cual es el proposito de un programa de optimizacion del sistema?, Mejorar el rendimiento de la computadora, Reproducir musica, Crear presentaciones, Navegar por internet, 1
+55, ¿Que significa HTML en desarrollo web?, HyperText Markup Language, High-Level Programming Language, Human-Technology Modeling Language, HyperTransfer and Multimedia Language, 1
+56, ¿Cual es el proposito de un programa de cifrado?, Proteger la informacion mediante codificacion, Aumentar la velocidad de la conexion, Crear presentaciones, Escanear virus, 2
+57, ¿Que es una direccion IP?, Identificador numerico de un dispositivo en una red, Archivo de audio, Documento de texto, Imagen, 1
+58, ¿Cual es el proposito de un programa de gestion de contrasenas?, Almacenar y organizar contrasenas, Reproducir videos, Escanear virus, Mejorar la velocidad de la conexion, 1
+59, ¿Que es un programa de reconocimiento de escritura a mano?, Software que convierte escritura a mano en texto, Reproductor de musica, Programa de diseno grafico, Juego en linea, 2
+60, ¿Cual es el proposito de un programa de monitoreo del sistema?, Supervisar el rendimiento de la computadora, Reproducir musica, Crear presentaciones, Navegar por internet, 1
+61, ¿Que es un programa de edicion de video?, Software para modificar y mejorar videos, Reproductor de musica, Programa de diseno grafico, Juego en linea, 1
+62, ¿Cual es el proposito de un programa de reconocimiento de musica?, Identificar canciones a partir de grabaciones, Mejorar la velocidad de la conexion, Crear presentaciones, Navegar por internet, 2
+63, ¿Que es un disco duro externo?, Dispositivo de almacenamiento que se conecta a traves de USB, Reproductor de musica, Programa de diseno grafico, Juego en linea, 1
+64, ¿Cual es el proposito de un programa de control parental?, Limitar el acceso a contenido inapropiado, Reproducir musica, Crear presentaciones, Navegar por internet, 1
+65, ¿Que es un programa de gestion de proyectos?, Software para planificar y organizar tareas, Reproductor de musica, Programa de diseno grafico, Juego en linea, 1
+66, ¿Cual es el proposito de un programa de reconocimiento optico de caracteres (OCR)?, Convertir texto impreso a formato digital, Mejorar la velocidad de la conexion, Crear presentaciones, Navegar por internet, 2
+67, ¿Que es un programa de virtualizacion?, Software que permite ejecutar multiples sistemas operativos en una misma maquina, Reproductor de musica, Programa de diseno grafico, Juego en linea, 2
+68, ¿Cual es el proposito de un programa de copia de seguridad en la nube?, Resguardar datos en servidores remotos, Reproducir musica, Crear presentaciones, Navegar por internet, 2
+69, ¿Que es un programa de dibujo tecnico?, Software para crear diagramas y planos, Reproductor de musica, Programa de diseno grafico, Juego en linea, 1
+70, ¿Cual es el proposito de un programa de reconocimiento de objetos?, Identificar objetos en imagenes o videos, Mejorar la velocidad de la conexion, Crear presentaciones, Navegar por internet, 2
