@@ -143,9 +143,10 @@
             this.lblPregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblPregunta.Font = new System.Drawing.Font("Century", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPregunta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblPregunta.Location = new System.Drawing.Point(46, 226);
+            this.lblPregunta.Location = new System.Drawing.Point(61, 278);
+            this.lblPregunta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPregunta.Name = "lblPregunta";
-            this.lblPregunta.Size = new System.Drawing.Size(96, 23);
+            this.lblPregunta.Size = new System.Drawing.Size(121, 29);
             this.lblPregunta.TabIndex = 45;
             this.lblPregunta.Text = "Pregunta";
             this.lblPregunta.Click += new System.EventHandler(this.lblPregunta_Click);
@@ -156,9 +157,10 @@
             this.lblRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(255)))), ((int)(((byte)(60)))));
-            this.lblRespuestaA.Location = new System.Drawing.Point(145, 380);
+            this.lblRespuestaA.Location = new System.Drawing.Point(193, 468);
+            this.lblRespuestaA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRespuestaA.Name = "lblRespuestaA";
-            this.lblRespuestaA.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaA.Size = new System.Drawing.Size(96, 18);
             this.lblRespuestaA.TabIndex = 46;
             this.lblRespuestaA.Text = "Respuesta A";
             this.lblRespuestaA.Click += new System.EventHandler(this.lblRespuestaA_Click);
@@ -169,9 +171,10 @@
             this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
-            this.lblRespuestaC.Location = new System.Drawing.Point(416, 380);
+            this.lblRespuestaC.Location = new System.Drawing.Point(555, 468);
+            this.lblRespuestaC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRespuestaC.Name = "lblRespuestaC";
-            this.lblRespuestaC.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaC.Size = new System.Drawing.Size(96, 18);
             this.lblRespuestaC.TabIndex = 47;
             this.lblRespuestaC.Text = "Respuesta C";
             this.lblRespuestaC.Click += new System.EventHandler(this.lblRespuestaC_Click);
@@ -182,9 +185,10 @@
             this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
-            this.lblRespuestaB.Location = new System.Drawing.Point(145, 485);
+            this.lblRespuestaB.Location = new System.Drawing.Point(193, 597);
+            this.lblRespuestaB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRespuestaB.Name = "lblRespuestaB";
-            this.lblRespuestaB.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaB.Size = new System.Drawing.Size(96, 18);
             this.lblRespuestaB.TabIndex = 48;
             this.lblRespuestaB.Text = "Respuesta B";
             this.lblRespuestaB.Click += new System.EventHandler(this.lblRespuestaB_Click);
@@ -195,9 +199,10 @@
             this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
-            this.lblRespuestaD.Location = new System.Drawing.Point(416, 485);
+            this.lblRespuestaD.Location = new System.Drawing.Point(555, 597);
+            this.lblRespuestaD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRespuestaD.Name = "lblRespuestaD";
-            this.lblRespuestaD.Size = new System.Drawing.Size(78, 16);
+            this.lblRespuestaD.Size = new System.Drawing.Size(97, 18);
             this.lblRespuestaD.TabIndex = 49;
             this.lblRespuestaD.Text = "Respuesta D";
             this.lblRespuestaD.Click += new System.EventHandler(this.lblRespuestaD_Click);
@@ -208,9 +213,10 @@
             this.lblIncorrectas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblIncorrectas.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIncorrectas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
-            this.lblIncorrectas.Location = new System.Drawing.Point(851, 406);
+            this.lblIncorrectas.Location = new System.Drawing.Point(1135, 500);
+            this.lblIncorrectas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIncorrectas.Name = "lblIncorrectas";
-            this.lblIncorrectas.Size = new System.Drawing.Size(68, 16);
+            this.lblIncorrectas.Size = new System.Drawing.Size(88, 18);
             this.lblIncorrectas.TabIndex = 50;
             this.lblIncorrectas.Text = "Incorrectas";
             this.lblIncorrectas.Click += new System.EventHandler(this.lblIncorrectas_Click);
@@ -221,9 +227,10 @@
             this.lblCorrectas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblCorrectas.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorrectas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(255)))), ((int)(((byte)(60)))));
-            this.lblCorrectas.Location = new System.Drawing.Point(851, 296);
+            this.lblCorrectas.Location = new System.Drawing.Point(1135, 364);
+            this.lblCorrectas.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCorrectas.Name = "lblCorrectas";
-            this.lblCorrectas.Size = new System.Drawing.Size(61, 16);
+            this.lblCorrectas.Size = new System.Drawing.Size(77, 18);
             this.lblCorrectas.TabIndex = 51;
             this.lblCorrectas.Text = "Correctas";
             this.lblCorrectas.Click += new System.EventHandler(this.lblCorrectas_Click);
@@ -232,9 +239,10 @@
             // 
             this.pboxSiguientePregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxSiguientePregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Siguiente;
-            this.pboxSiguientePregunta.Location = new System.Drawing.Point(350, 161);
+            this.pboxSiguientePregunta.Location = new System.Drawing.Point(467, 198);
+            this.pboxSiguientePregunta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxSiguientePregunta.Name = "pboxSiguientePregunta";
-            this.pboxSiguientePregunta.Size = new System.Drawing.Size(44, 40);
+            this.pboxSiguientePregunta.Size = new System.Drawing.Size(59, 49);
             this.pboxSiguientePregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxSiguientePregunta.TabIndex = 55;
             this.pboxSiguientePregunta.TabStop = false;
@@ -244,9 +252,10 @@
             // 
             this.pboxPreguntaAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxPreguntaAnterior.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Anterior;
-            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(286, 161);
+            this.pboxPreguntaAnterior.Location = new System.Drawing.Point(381, 198);
+            this.pboxPreguntaAnterior.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxPreguntaAnterior.Name = "pboxPreguntaAnterior";
-            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(44, 40);
+            this.pboxPreguntaAnterior.Size = new System.Drawing.Size(59, 49);
             this.pboxPreguntaAnterior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPreguntaAnterior.TabIndex = 54;
             this.pboxPreguntaAnterior.TabStop = false;
@@ -256,9 +265,10 @@
             // 
             this.pboxMensajeResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxMensajeResultado.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Mensaje;
-            this.pboxMensajeResultado.Location = new System.Drawing.Point(92, 582);
+            this.pboxMensajeResultado.Location = new System.Drawing.Point(123, 716);
+            this.pboxMensajeResultado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxMensajeResultado.Name = "pboxMensajeResultado";
-            this.pboxMensajeResultado.Size = new System.Drawing.Size(548, 50);
+            this.pboxMensajeResultado.Size = new System.Drawing.Size(731, 62);
             this.pboxMensajeResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxMensajeResultado.TabIndex = 53;
             this.pboxMensajeResultado.TabStop = false;
@@ -267,10 +277,12 @@
             // pboxFinalizar
             // 
             this.pboxFinalizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.pboxFinalizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxFinalizar.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Boton_Terminar_Examen;
-            this.pboxFinalizar.Location = new System.Drawing.Point(788, 582);
+            this.pboxFinalizar.Location = new System.Drawing.Point(1051, 716);
+            this.pboxFinalizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxFinalizar.Name = "pboxFinalizar";
-            this.pboxFinalizar.Size = new System.Drawing.Size(200, 64);
+            this.pboxFinalizar.Size = new System.Drawing.Size(267, 79);
             this.pboxFinalizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxFinalizar.TabIndex = 41;
             this.pboxFinalizar.TabStop = false;
@@ -280,9 +292,10 @@
             // 
             this.pboxRepetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxRepetir.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Boton_Repetir_Examen;
-            this.pboxRepetir.Location = new System.Drawing.Point(788, 499);
+            this.pboxRepetir.Location = new System.Drawing.Point(1051, 614);
+            this.pboxRepetir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxRepetir.Name = "pboxRepetir";
-            this.pboxRepetir.Size = new System.Drawing.Size(200, 64);
+            this.pboxRepetir.Size = new System.Drawing.Size(267, 79);
             this.pboxRepetir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRepetir.TabIndex = 40;
             this.pboxRepetir.TabStop = false;
@@ -292,9 +305,10 @@
             // 
             this.pboxErrores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxErrores.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Numero_Errores__2_;
-            this.pboxErrores.Location = new System.Drawing.Point(788, 365);
+            this.pboxErrores.Location = new System.Drawing.Point(1051, 449);
+            this.pboxErrores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxErrores.Name = "pboxErrores";
-            this.pboxErrores.Size = new System.Drawing.Size(200, 87);
+            this.pboxErrores.Size = new System.Drawing.Size(267, 107);
             this.pboxErrores.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxErrores.TabIndex = 39;
             this.pboxErrores.TabStop = false;
@@ -304,9 +318,10 @@
             // 
             this.pboxAciertos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxAciertos.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Numero_Aciertos__2_;
-            this.pboxAciertos.Location = new System.Drawing.Point(788, 251);
+            this.pboxAciertos.Location = new System.Drawing.Point(1051, 309);
+            this.pboxAciertos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxAciertos.Name = "pboxAciertos";
-            this.pboxAciertos.Size = new System.Drawing.Size(200, 87);
+            this.pboxAciertos.Size = new System.Drawing.Size(267, 107);
             this.pboxAciertos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxAciertos.TabIndex = 38;
             this.pboxAciertos.TabStop = false;
@@ -316,9 +331,10 @@
             // 
             this.pboxRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Respuesta_Incorrecta__2_;
-            this.pboxRespuestaD.Location = new System.Drawing.Point(403, 464);
+            this.pboxRespuestaD.Location = new System.Drawing.Point(537, 571);
+            this.pboxRespuestaD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxRespuestaD.Name = "pboxRespuestaD";
-            this.pboxRespuestaD.Size = new System.Drawing.Size(205, 86);
+            this.pboxRespuestaD.Size = new System.Drawing.Size(273, 106);
             this.pboxRespuestaD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaD.TabIndex = 37;
             this.pboxRespuestaD.TabStop = false;
@@ -327,9 +343,10 @@
             // 
             this.pboxRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Respuesta_Incorrecta__2_;
-            this.pboxRespuestaB.Location = new System.Drawing.Point(133, 464);
+            this.pboxRespuestaB.Location = new System.Drawing.Point(177, 571);
+            this.pboxRespuestaB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxRespuestaB.Name = "pboxRespuestaB";
-            this.pboxRespuestaB.Size = new System.Drawing.Size(197, 86);
+            this.pboxRespuestaB.Size = new System.Drawing.Size(263, 106);
             this.pboxRespuestaB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaB.TabIndex = 36;
             this.pboxRespuestaB.TabStop = false;
@@ -338,9 +355,10 @@
             // 
             this.pboxRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Respuesta_Incorrecta__2_;
-            this.pboxRespuestaC.Location = new System.Drawing.Point(403, 359);
+            this.pboxRespuestaC.Location = new System.Drawing.Point(537, 442);
+            this.pboxRespuestaC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxRespuestaC.Name = "pboxRespuestaC";
-            this.pboxRespuestaC.Size = new System.Drawing.Size(205, 86);
+            this.pboxRespuestaC.Size = new System.Drawing.Size(273, 106);
             this.pboxRespuestaC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaC.TabIndex = 35;
             this.pboxRespuestaC.TabStop = false;
@@ -350,9 +368,10 @@
             // 
             this.pboxRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Respuesta_Correcta__2_;
-            this.pboxRespuestaA.Location = new System.Drawing.Point(133, 359);
+            this.pboxRespuestaA.Location = new System.Drawing.Point(177, 442);
+            this.pboxRespuestaA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxRespuestaA.Name = "pboxRespuestaA";
-            this.pboxRespuestaA.Size = new System.Drawing.Size(197, 86);
+            this.pboxRespuestaA.Size = new System.Drawing.Size(263, 106);
             this.pboxRespuestaA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxRespuestaA.TabIndex = 34;
             this.pboxRespuestaA.TabStop = false;
@@ -362,9 +381,10 @@
             // 
             this.pboxResultados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxResultados.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Resultados__2_;
-            this.pboxResultados.Location = new System.Drawing.Point(775, 95);
+            this.pboxResultados.Location = new System.Drawing.Point(1033, 117);
+            this.pboxResultados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxResultados.Name = "pboxResultados";
-            this.pboxResultados.Size = new System.Drawing.Size(213, 106);
+            this.pboxResultados.Size = new System.Drawing.Size(284, 130);
             this.pboxResultados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxResultados.TabIndex = 33;
             this.pboxResultados.TabStop = false;
@@ -374,9 +394,10 @@
             // 
             this.pboxPreguntas2130.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pboxPreguntas2130.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_21_30;
-            this.pboxPreguntas2130.Location = new System.Drawing.Point(483, 29);
+            this.pboxPreguntas2130.Location = new System.Drawing.Point(644, 36);
+            this.pboxPreguntas2130.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxPreguntas2130.Name = "pboxPreguntas2130";
-            this.pboxPreguntas2130.Size = new System.Drawing.Size(173, 60);
+            this.pboxPreguntas2130.Size = new System.Drawing.Size(231, 74);
             this.pboxPreguntas2130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPreguntas2130.TabIndex = 29;
             this.pboxPreguntas2130.TabStop = false;
@@ -386,9 +407,10 @@
             // 
             this.pboxPreguntas1120.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pboxPreguntas1120.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_11_20;
-            this.pboxPreguntas1120.Location = new System.Drawing.Point(246, 29);
+            this.pboxPreguntas1120.Location = new System.Drawing.Point(328, 36);
+            this.pboxPreguntas1120.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxPreguntas1120.Name = "pboxPreguntas1120";
-            this.pboxPreguntas1120.Size = new System.Drawing.Size(173, 60);
+            this.pboxPreguntas1120.Size = new System.Drawing.Size(231, 74);
             this.pboxPreguntas1120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPreguntas1120.TabIndex = 28;
             this.pboxPreguntas1120.TabStop = false;
@@ -398,9 +420,10 @@
             // 
             this.pboxPreguntas110.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
             this.pboxPreguntas110.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_1_10;
-            this.pboxPreguntas110.Location = new System.Drawing.Point(12, 29);
+            this.pboxPreguntas110.Location = new System.Drawing.Point(16, 36);
+            this.pboxPreguntas110.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxPreguntas110.Name = "pboxPreguntas110";
-            this.pboxPreguntas110.Size = new System.Drawing.Size(173, 60);
+            this.pboxPreguntas110.Size = new System.Drawing.Size(231, 74);
             this.pboxPreguntas110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPreguntas110.TabIndex = 27;
             this.pboxPreguntas110.TabStop = false;
@@ -410,9 +433,10 @@
             // 
             this.pboxPregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.pboxPregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Pregunta_Larga__2_;
-            this.pboxPregunta.Location = new System.Drawing.Point(27, 207);
+            this.pboxPregunta.Location = new System.Drawing.Point(36, 255);
+            this.pboxPregunta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxPregunta.Name = "pboxPregunta";
-            this.pboxPregunta.Size = new System.Drawing.Size(697, 105);
+            this.pboxPregunta.Size = new System.Drawing.Size(929, 129);
             this.pboxPregunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxPregunta.TabIndex = 26;
             this.pboxPregunta.TabStop = false;
@@ -424,8 +448,9 @@
             this.pboxResultadosFondo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pboxResultadosFondo.Image = global::SistemaEvaluacion.Properties.Resources.Resultados_Ultimo_Fondo;
             this.pboxResultadosFondo.Location = new System.Drawing.Point(0, 0);
+            this.pboxResultadosFondo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxResultadosFondo.Name = "pboxResultadosFondo";
-            this.pboxResultadosFondo.Size = new System.Drawing.Size(1036, 677);
+            this.pboxResultadosFondo.Size = new System.Drawing.Size(1381, 833);
             this.pboxResultadosFondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxResultadosFondo.TabIndex = 57;
             this.pboxResultadosFondo.TabStop = false;
@@ -444,17 +469,19 @@
             this.pnlPreguntas2130.Controls.Add(this.pboxCasilla25);
             this.pnlPreguntas2130.Controls.Add(this.pboxCasilla26);
             this.pnlPreguntas2130.Controls.Add(this.pboxCasilla27);
-            this.pnlPreguntas2130.Location = new System.Drawing.Point(12, 95);
+            this.pnlPreguntas2130.Location = new System.Drawing.Point(16, 117);
+            this.pnlPreguntas2130.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlPreguntas2130.Name = "pnlPreguntas2130";
-            this.pnlPreguntas2130.Size = new System.Drawing.Size(665, 62);
+            this.pnlPreguntas2130.Size = new System.Drawing.Size(887, 76);
             this.pnlPreguntas2130.TabIndex = 58;
             // 
             // pboxCasilla30
             // 
             this.pboxCasilla30.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector30;
-            this.pboxCasilla30.Location = new System.Drawing.Point(603, 3);
+            this.pboxCasilla30.Location = new System.Drawing.Point(804, 4);
+            this.pboxCasilla30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla30.Name = "pboxCasilla30";
-            this.pboxCasilla30.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla30.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla30.TabIndex = 23;
             this.pboxCasilla30.TabStop = false;
@@ -463,9 +490,10 @@
             // pboxCasilla21
             // 
             this.pboxCasilla21.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector21;
-            this.pboxCasilla21.Location = new System.Drawing.Point(3, 3);
+            this.pboxCasilla21.Location = new System.Drawing.Point(4, 4);
+            this.pboxCasilla21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla21.Name = "pboxCasilla21";
-            this.pboxCasilla21.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla21.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla21.TabIndex = 14;
             this.pboxCasilla21.TabStop = false;
@@ -474,9 +502,10 @@
             // pboxCasilla22
             // 
             this.pboxCasilla22.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector22;
-            this.pboxCasilla22.Location = new System.Drawing.Point(70, 3);
+            this.pboxCasilla22.Location = new System.Drawing.Point(93, 4);
+            this.pboxCasilla22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla22.Name = "pboxCasilla22";
-            this.pboxCasilla22.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla22.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla22.TabIndex = 15;
             this.pboxCasilla22.TabStop = false;
@@ -485,9 +514,10 @@
             // pboxCasilla29
             // 
             this.pboxCasilla29.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector29;
-            this.pboxCasilla29.Location = new System.Drawing.Point(539, 3);
+            this.pboxCasilla29.Location = new System.Drawing.Point(719, 4);
+            this.pboxCasilla29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla29.Name = "pboxCasilla29";
-            this.pboxCasilla29.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla29.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla29.TabIndex = 22;
             this.pboxCasilla29.TabStop = false;
@@ -496,9 +526,10 @@
             // pboxCasilla23
             // 
             this.pboxCasilla23.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector23;
-            this.pboxCasilla23.Location = new System.Drawing.Point(136, 3);
+            this.pboxCasilla23.Location = new System.Drawing.Point(181, 4);
+            this.pboxCasilla23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla23.Name = "pboxCasilla23";
-            this.pboxCasilla23.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla23.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla23.TabIndex = 16;
             this.pboxCasilla23.TabStop = false;
@@ -507,9 +538,10 @@
             // pboxCasilla24
             // 
             this.pboxCasilla24.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector24;
-            this.pboxCasilla24.Location = new System.Drawing.Point(202, 3);
+            this.pboxCasilla24.Location = new System.Drawing.Point(269, 4);
+            this.pboxCasilla24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla24.Name = "pboxCasilla24";
-            this.pboxCasilla24.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla24.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla24.TabIndex = 17;
             this.pboxCasilla24.TabStop = false;
@@ -518,9 +550,10 @@
             // pboxCasilla28
             // 
             this.pboxCasilla28.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector28;
-            this.pboxCasilla28.Location = new System.Drawing.Point(471, 3);
+            this.pboxCasilla28.Location = new System.Drawing.Point(628, 4);
+            this.pboxCasilla28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla28.Name = "pboxCasilla28";
-            this.pboxCasilla28.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla28.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla28.TabIndex = 21;
             this.pboxCasilla28.TabStop = false;
@@ -529,9 +562,10 @@
             // pboxCasilla25
             // 
             this.pboxCasilla25.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector25;
-            this.pboxCasilla25.Location = new System.Drawing.Point(269, 3);
+            this.pboxCasilla25.Location = new System.Drawing.Point(359, 4);
+            this.pboxCasilla25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla25.Name = "pboxCasilla25";
-            this.pboxCasilla25.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla25.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla25.TabIndex = 18;
             this.pboxCasilla25.TabStop = false;
@@ -540,9 +574,10 @@
             // pboxCasilla26
             // 
             this.pboxCasilla26.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector26;
-            this.pboxCasilla26.Location = new System.Drawing.Point(338, 3);
+            this.pboxCasilla26.Location = new System.Drawing.Point(451, 4);
+            this.pboxCasilla26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla26.Name = "pboxCasilla26";
-            this.pboxCasilla26.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla26.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla26.TabIndex = 19;
             this.pboxCasilla26.TabStop = false;
@@ -551,9 +586,10 @@
             // pboxCasilla27
             // 
             this.pboxCasilla27.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector27;
-            this.pboxCasilla27.Location = new System.Drawing.Point(404, 3);
+            this.pboxCasilla27.Location = new System.Drawing.Point(539, 4);
+            this.pboxCasilla27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla27.Name = "pboxCasilla27";
-            this.pboxCasilla27.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla27.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla27.TabIndex = 20;
             this.pboxCasilla27.TabStop = false;
@@ -572,17 +608,19 @@
             this.pnlPreguntas1120.Controls.Add(this.pboxCasilla17);
             this.pnlPreguntas1120.Controls.Add(this.pboxCasilla15);
             this.pnlPreguntas1120.Controls.Add(this.pboxCasilla16);
-            this.pnlPreguntas1120.Location = new System.Drawing.Point(12, 95);
+            this.pnlPreguntas1120.Location = new System.Drawing.Point(16, 117);
+            this.pnlPreguntas1120.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlPreguntas1120.Name = "pnlPreguntas1120";
-            this.pnlPreguntas1120.Size = new System.Drawing.Size(667, 62);
+            this.pnlPreguntas1120.Size = new System.Drawing.Size(889, 76);
             this.pnlPreguntas1120.TabIndex = 59;
             // 
             // pboxCasilla20
             // 
             this.pboxCasilla20.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector20;
-            this.pboxCasilla20.Location = new System.Drawing.Point(603, 3);
+            this.pboxCasilla20.Location = new System.Drawing.Point(804, 4);
+            this.pboxCasilla20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla20.Name = "pboxCasilla20";
-            this.pboxCasilla20.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla20.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla20.TabIndex = 23;
             this.pboxCasilla20.TabStop = false;
@@ -591,9 +629,10 @@
             // pboxCasilla11
             // 
             this.pboxCasilla11.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector11;
-            this.pboxCasilla11.Location = new System.Drawing.Point(3, 3);
+            this.pboxCasilla11.Location = new System.Drawing.Point(4, 4);
+            this.pboxCasilla11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla11.Name = "pboxCasilla11";
-            this.pboxCasilla11.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla11.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla11.TabIndex = 14;
             this.pboxCasilla11.TabStop = false;
@@ -602,9 +641,10 @@
             // pboxCasilla12
             // 
             this.pboxCasilla12.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector12;
-            this.pboxCasilla12.Location = new System.Drawing.Point(70, 3);
+            this.pboxCasilla12.Location = new System.Drawing.Point(93, 4);
+            this.pboxCasilla12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla12.Name = "pboxCasilla12";
-            this.pboxCasilla12.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla12.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla12.TabIndex = 15;
             this.pboxCasilla12.TabStop = false;
@@ -613,9 +653,10 @@
             // pboxCasilla19
             // 
             this.pboxCasilla19.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector19;
-            this.pboxCasilla19.Location = new System.Drawing.Point(539, 3);
+            this.pboxCasilla19.Location = new System.Drawing.Point(719, 4);
+            this.pboxCasilla19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla19.Name = "pboxCasilla19";
-            this.pboxCasilla19.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla19.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla19.TabIndex = 22;
             this.pboxCasilla19.TabStop = false;
@@ -624,9 +665,10 @@
             // pboxCasilla13
             // 
             this.pboxCasilla13.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector13;
-            this.pboxCasilla13.Location = new System.Drawing.Point(136, 3);
+            this.pboxCasilla13.Location = new System.Drawing.Point(181, 4);
+            this.pboxCasilla13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla13.Name = "pboxCasilla13";
-            this.pboxCasilla13.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla13.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla13.TabIndex = 16;
             this.pboxCasilla13.TabStop = false;
@@ -635,9 +677,10 @@
             // pboxCasilla18
             // 
             this.pboxCasilla18.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector18;
-            this.pboxCasilla18.Location = new System.Drawing.Point(471, 3);
+            this.pboxCasilla18.Location = new System.Drawing.Point(628, 4);
+            this.pboxCasilla18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla18.Name = "pboxCasilla18";
-            this.pboxCasilla18.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla18.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla18.TabIndex = 21;
             this.pboxCasilla18.TabStop = false;
@@ -646,9 +689,10 @@
             // pboxCasilla14
             // 
             this.pboxCasilla14.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector14;
-            this.pboxCasilla14.Location = new System.Drawing.Point(202, 3);
+            this.pboxCasilla14.Location = new System.Drawing.Point(269, 4);
+            this.pboxCasilla14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla14.Name = "pboxCasilla14";
-            this.pboxCasilla14.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla14.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla14.TabIndex = 17;
             this.pboxCasilla14.TabStop = false;
@@ -657,9 +701,10 @@
             // pboxCasilla17
             // 
             this.pboxCasilla17.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector17;
-            this.pboxCasilla17.Location = new System.Drawing.Point(404, 3);
+            this.pboxCasilla17.Location = new System.Drawing.Point(539, 4);
+            this.pboxCasilla17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla17.Name = "pboxCasilla17";
-            this.pboxCasilla17.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla17.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla17.TabIndex = 20;
             this.pboxCasilla17.TabStop = false;
@@ -668,9 +713,10 @@
             // pboxCasilla15
             // 
             this.pboxCasilla15.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector15;
-            this.pboxCasilla15.Location = new System.Drawing.Point(269, 3);
+            this.pboxCasilla15.Location = new System.Drawing.Point(359, 4);
+            this.pboxCasilla15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla15.Name = "pboxCasilla15";
-            this.pboxCasilla15.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla15.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla15.TabIndex = 18;
             this.pboxCasilla15.TabStop = false;
@@ -679,9 +725,10 @@
             // pboxCasilla16
             // 
             this.pboxCasilla16.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector16;
-            this.pboxCasilla16.Location = new System.Drawing.Point(338, 3);
+            this.pboxCasilla16.Location = new System.Drawing.Point(451, 4);
+            this.pboxCasilla16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla16.Name = "pboxCasilla16";
-            this.pboxCasilla16.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla16.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla16.TabIndex = 19;
             this.pboxCasilla16.TabStop = false;
@@ -700,17 +747,19 @@
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla5);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla6);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla7);
-            this.pnlPreguntas110.Location = new System.Drawing.Point(12, 95);
+            this.pnlPreguntas110.Location = new System.Drawing.Point(16, 117);
+            this.pnlPreguntas110.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlPreguntas110.Name = "pnlPreguntas110";
-            this.pnlPreguntas110.Size = new System.Drawing.Size(661, 56);
+            this.pnlPreguntas110.Size = new System.Drawing.Size(881, 69);
             this.pnlPreguntas110.TabIndex = 60;
             // 
             // pboxCasilla1
             // 
             this.pboxCasilla1.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector1;
-            this.pboxCasilla1.Location = new System.Drawing.Point(3, 3);
+            this.pboxCasilla1.Location = new System.Drawing.Point(4, 4);
+            this.pboxCasilla1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla1.Name = "pboxCasilla1";
-            this.pboxCasilla1.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla1.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla1.TabIndex = 14;
             this.pboxCasilla1.TabStop = false;
@@ -719,9 +768,10 @@
             // pboxCasilla10
             // 
             this.pboxCasilla10.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector10;
-            this.pboxCasilla10.Location = new System.Drawing.Point(603, 3);
+            this.pboxCasilla10.Location = new System.Drawing.Point(804, 4);
+            this.pboxCasilla10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla10.Name = "pboxCasilla10";
-            this.pboxCasilla10.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla10.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla10.TabIndex = 23;
             this.pboxCasilla10.TabStop = false;
@@ -730,9 +780,10 @@
             // pboxCasilla2
             // 
             this.pboxCasilla2.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector2;
-            this.pboxCasilla2.Location = new System.Drawing.Point(70, 3);
+            this.pboxCasilla2.Location = new System.Drawing.Point(93, 4);
+            this.pboxCasilla2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla2.Name = "pboxCasilla2";
-            this.pboxCasilla2.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla2.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla2.TabIndex = 15;
             this.pboxCasilla2.TabStop = false;
@@ -741,9 +792,10 @@
             // pboxCasilla9
             // 
             this.pboxCasilla9.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector9;
-            this.pboxCasilla9.Location = new System.Drawing.Point(539, 3);
+            this.pboxCasilla9.Location = new System.Drawing.Point(719, 4);
+            this.pboxCasilla9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla9.Name = "pboxCasilla9";
-            this.pboxCasilla9.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla9.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla9.TabIndex = 22;
             this.pboxCasilla9.TabStop = false;
@@ -752,9 +804,10 @@
             // pboxCasilla3
             // 
             this.pboxCasilla3.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector3;
-            this.pboxCasilla3.Location = new System.Drawing.Point(136, 3);
+            this.pboxCasilla3.Location = new System.Drawing.Point(181, 4);
+            this.pboxCasilla3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla3.Name = "pboxCasilla3";
-            this.pboxCasilla3.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla3.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla3.TabIndex = 16;
             this.pboxCasilla3.TabStop = false;
@@ -763,9 +816,10 @@
             // pboxCasilla4
             // 
             this.pboxCasilla4.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector4;
-            this.pboxCasilla4.Location = new System.Drawing.Point(202, 3);
+            this.pboxCasilla4.Location = new System.Drawing.Point(269, 4);
+            this.pboxCasilla4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla4.Name = "pboxCasilla4";
-            this.pboxCasilla4.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla4.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla4.TabIndex = 17;
             this.pboxCasilla4.TabStop = false;
@@ -774,9 +828,10 @@
             // pboxCasilla8
             // 
             this.pboxCasilla8.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector8;
-            this.pboxCasilla8.Location = new System.Drawing.Point(471, 3);
+            this.pboxCasilla8.Location = new System.Drawing.Point(628, 4);
+            this.pboxCasilla8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla8.Name = "pboxCasilla8";
-            this.pboxCasilla8.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla8.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla8.TabIndex = 21;
             this.pboxCasilla8.TabStop = false;
@@ -785,9 +840,10 @@
             // pboxCasilla5
             // 
             this.pboxCasilla5.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector5;
-            this.pboxCasilla5.Location = new System.Drawing.Point(269, 3);
+            this.pboxCasilla5.Location = new System.Drawing.Point(359, 4);
+            this.pboxCasilla5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla5.Name = "pboxCasilla5";
-            this.pboxCasilla5.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla5.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla5.TabIndex = 18;
             this.pboxCasilla5.TabStop = false;
@@ -796,9 +852,10 @@
             // pboxCasilla6
             // 
             this.pboxCasilla6.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector6;
-            this.pboxCasilla6.Location = new System.Drawing.Point(338, 3);
+            this.pboxCasilla6.Location = new System.Drawing.Point(451, 4);
+            this.pboxCasilla6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla6.Name = "pboxCasilla6";
-            this.pboxCasilla6.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla6.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla6.TabIndex = 19;
             this.pboxCasilla6.TabStop = false;
@@ -807,9 +864,10 @@
             // pboxCasilla7
             // 
             this.pboxCasilla7.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Selector7;
-            this.pboxCasilla7.Location = new System.Drawing.Point(404, 3);
+            this.pboxCasilla7.Location = new System.Drawing.Point(539, 4);
+            this.pboxCasilla7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pboxCasilla7.Name = "pboxCasilla7";
-            this.pboxCasilla7.Size = new System.Drawing.Size(49, 50);
+            this.pboxCasilla7.Size = new System.Drawing.Size(65, 62);
             this.pboxCasilla7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboxCasilla7.TabIndex = 20;
             this.pboxCasilla7.TabStop = false;
@@ -817,9 +875,9 @@
             // 
             // Resultados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1036, 677);
+            this.ClientSize = new System.Drawing.Size(1381, 833);
             this.Controls.Add(this.pnlPreguntas110);
             this.Controls.Add(this.pnlPreguntas1120);
             this.Controls.Add(this.pnlPreguntas2130);
@@ -847,6 +905,7 @@
             this.Controls.Add(this.pboxPreguntas110);
             this.Controls.Add(this.pboxPregunta);
             this.Controls.Add(this.pboxResultadosFondo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Resultados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resultados";

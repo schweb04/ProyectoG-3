@@ -62,11 +62,11 @@
             this.pboxCasilla6 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla7 = new System.Windows.Forms.PictureBox();
             this.lblPregunta = new System.Windows.Forms.Label();
-            this.lblRespuestaA = new System.Windows.Forms.Label();
-            this.lblRespuestaC = new System.Windows.Forms.Label();
-            this.lblRespuestaB = new System.Windows.Forms.Label();
-            this.lblRespuestaD = new System.Windows.Forms.Label();
             this.lblTiempo = new System.Windows.Forms.Label();
+            this.buttonRespuestaD = new System.Windows.Forms.Button();
+            this.buttonRespuestaB = new System.Windows.Forms.Button();
+            this.buttonRespuestaC = new System.Windows.Forms.Button();
+            this.buttonRespuestaA = new System.Windows.Forms.Button();
             this.pboxTemporizador = new System.Windows.Forms.PictureBox();
             this.pboxFinalizar = new System.Windows.Forms.PictureBox();
             this.pboxAbandonar = new System.Windows.Forms.PictureBox();
@@ -74,10 +74,6 @@
             this.pboxPreguntas2130 = new System.Windows.Forms.PictureBox();
             this.pboxPreguntas1120 = new System.Windows.Forms.PictureBox();
             this.pboxPreguntaAnterior = new System.Windows.Forms.PictureBox();
-            this.pboxRespuestaD = new System.Windows.Forms.PictureBox();
-            this.pboxRespuestaC = new System.Windows.Forms.PictureBox();
-            this.pboxRespuestaB = new System.Windows.Forms.PictureBox();
-            this.pboxRespuestaA = new System.Windows.Forms.PictureBox();
             this.pboxPreguntas110 = new System.Windows.Forms.PictureBox();
             this.pboxPregunta = new System.Windows.Forms.PictureBox();
             this.pboxEvaluacionFondo = new System.Windows.Forms.PictureBox();
@@ -121,10 +117,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas2130)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas1120)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaC)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaB)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPregunta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxEvaluacionFondo)).BeginInit();
@@ -143,7 +135,8 @@
             this.pnlPreguntas2130.Controls.Add(this.pboxCasilla25);
             this.pnlPreguntas2130.Controls.Add(this.pboxCasilla26);
             this.pnlPreguntas2130.Controls.Add(this.pboxCasilla27);
-            this.pnlPreguntas2130.Location = new System.Drawing.Point(23, 74);
+            this.pnlPreguntas2130.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlPreguntas2130.Location = new System.Drawing.Point(23, 67);
             this.pnlPreguntas2130.Name = "pnlPreguntas2130";
             this.pnlPreguntas2130.Size = new System.Drawing.Size(665, 62);
             this.pnlPreguntas2130.TabIndex = 40;
@@ -271,9 +264,10 @@
             this.pnlPreguntas1120.Controls.Add(this.pboxCasilla17);
             this.pnlPreguntas1120.Controls.Add(this.pboxCasilla15);
             this.pnlPreguntas1120.Controls.Add(this.pboxCasilla16);
-            this.pnlPreguntas1120.Location = new System.Drawing.Point(23, 74);
+            this.pnlPreguntas1120.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlPreguntas1120.Location = new System.Drawing.Point(23, 73);
             this.pnlPreguntas1120.Name = "pnlPreguntas1120";
-            this.pnlPreguntas1120.Size = new System.Drawing.Size(661, 62);
+            this.pnlPreguntas1120.Size = new System.Drawing.Size(662, 58);
             this.pnlPreguntas1120.TabIndex = 39;
             // 
             // pboxCasilla20
@@ -399,6 +393,7 @@
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla5);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla6);
             this.pnlPreguntas110.Controls.Add(this.pboxCasilla7);
+            this.pnlPreguntas110.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pnlPreguntas110.Location = new System.Drawing.Point(23, 74);
             this.pnlPreguntas110.Name = "pnlPreguntas110";
             this.pnlPreguntas110.Size = new System.Drawing.Size(661, 56);
@@ -526,54 +521,6 @@
             this.lblPregunta.Text = "Pregunta";
             this.lblPregunta.Click += new System.EventHandler(this.lblPregunta_Click);
             // 
-            // lblRespuestaA
-            // 
-            this.lblRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaA.Location = new System.Drawing.Point(211, 352);
-            this.lblRespuestaA.Name = "lblRespuestaA";
-            this.lblRespuestaA.Size = new System.Drawing.Size(179, 43);
-            this.lblRespuestaA.TabIndex = 42;
-            this.lblRespuestaA.Text = "Respuesta A";
-            this.lblRespuestaA.Click += new System.EventHandler(this.lblRespuestaA_Click);
-            // 
-            // lblRespuestaC
-            // 
-            this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaC.Location = new System.Drawing.Point(490, 352);
-            this.lblRespuestaC.Name = "lblRespuestaC";
-            this.lblRespuestaC.Size = new System.Drawing.Size(183, 43);
-            this.lblRespuestaC.TabIndex = 43;
-            this.lblRespuestaC.Text = "Respuesta C";
-            this.lblRespuestaC.Click += new System.EventHandler(this.lblRespuestaC_Click);
-            // 
-            // lblRespuestaB
-            // 
-            this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaB.Location = new System.Drawing.Point(211, 464);
-            this.lblRespuestaB.Name = "lblRespuestaB";
-            this.lblRespuestaB.Size = new System.Drawing.Size(179, 37);
-            this.lblRespuestaB.TabIndex = 44;
-            this.lblRespuestaB.Text = "Respuesta B";
-            this.lblRespuestaB.Click += new System.EventHandler(this.lblRespuestaB_Click);
-            // 
-            // lblRespuestaD
-            // 
-            this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
-            this.lblRespuestaD.Location = new System.Drawing.Point(490, 463);
-            this.lblRespuestaD.Name = "lblRespuestaD";
-            this.lblRespuestaD.Size = new System.Drawing.Size(183, 37);
-            this.lblRespuestaD.TabIndex = 45;
-            this.lblRespuestaD.Text = "Respuesta D";
-            this.lblRespuestaD.Click += new System.EventHandler(this.lblRespuestaD_Click);
-            // 
             // lblTiempo
             // 
             this.lblTiempo.AutoSize = true;
@@ -586,6 +533,82 @@
             this.lblTiempo.TabIndex = 55;
             this.lblTiempo.Text = "30 min";
             this.lblTiempo.Click += new System.EventHandler(this.lblTiempo_Click);
+            // 
+            // buttonRespuestaD
+            // 
+            this.buttonRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.buttonRespuestaD.BackgroundImage = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
+            this.buttonRespuestaD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonRespuestaD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonRespuestaD.FlatAppearance.BorderSize = 0;
+            this.buttonRespuestaD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.buttonRespuestaD.Location = new System.Drawing.Point(447, 433);
+            this.buttonRespuestaD.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonRespuestaD.Name = "buttonRespuestaD";
+            this.buttonRespuestaD.Size = new System.Drawing.Size(241, 101);
+            this.buttonRespuestaD.TabIndex = 62;
+            this.buttonRespuestaD.Text = "Respuesta D";
+            this.buttonRespuestaD.UseVisualStyleBackColor = false;
+            this.buttonRespuestaD.Click += new System.EventHandler(this.buttonRespuestaD_Click);
+            // 
+            // buttonRespuestaB
+            // 
+            this.buttonRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.buttonRespuestaB.BackgroundImage = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
+            this.buttonRespuestaB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonRespuestaB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonRespuestaB.FlatAppearance.BorderSize = 0;
+            this.buttonRespuestaB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.buttonRespuestaB.Location = new System.Drawing.Point(180, 433);
+            this.buttonRespuestaB.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonRespuestaB.Name = "buttonRespuestaB";
+            this.buttonRespuestaB.Size = new System.Drawing.Size(242, 101);
+            this.buttonRespuestaB.TabIndex = 61;
+            this.buttonRespuestaB.Text = "Respuesta B";
+            this.buttonRespuestaB.UseVisualStyleBackColor = false;
+            this.buttonRespuestaB.Click += new System.EventHandler(this.buttonRespuestaB_Click);
+            // 
+            // buttonRespuestaC
+            // 
+            this.buttonRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.buttonRespuestaC.BackgroundImage = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
+            this.buttonRespuestaC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonRespuestaC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonRespuestaC.FlatAppearance.BorderSize = 0;
+            this.buttonRespuestaC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.buttonRespuestaC.Location = new System.Drawing.Point(447, 324);
+            this.buttonRespuestaC.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonRespuestaC.Name = "buttonRespuestaC";
+            this.buttonRespuestaC.Size = new System.Drawing.Size(243, 105);
+            this.buttonRespuestaC.TabIndex = 60;
+            this.buttonRespuestaC.Text = "Respuesta C";
+            this.buttonRespuestaC.UseVisualStyleBackColor = false;
+            this.buttonRespuestaC.Click += new System.EventHandler(this.buttonRespuestaC_Click);
+            // 
+            // buttonRespuestaA
+            // 
+            this.buttonRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.buttonRespuestaA.BackgroundImage = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_1;
+            this.buttonRespuestaA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonRespuestaA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonRespuestaA.FlatAppearance.BorderSize = 0;
+            this.buttonRespuestaA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.buttonRespuestaA.Location = new System.Drawing.Point(180, 317);
+            this.buttonRespuestaA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonRespuestaA.Name = "buttonRespuestaA";
+            this.buttonRespuestaA.Size = new System.Drawing.Size(252, 119);
+            this.buttonRespuestaA.TabIndex = 59;
+            this.buttonRespuestaA.Text = "Respuesta A";
+            this.buttonRespuestaA.UseVisualStyleBackColor = false;
+            this.buttonRespuestaA.Click += new System.EventHandler(this.buttonRespuesta_Click);
             // 
             // pboxTemporizador
             // 
@@ -601,6 +624,7 @@
             // pboxFinalizar
             // 
             this.pboxFinalizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.pboxFinalizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxFinalizar.Image = global::SistemaEvaluacion.Properties.Resources.Evaluacion_Finalizar_Examen;
             this.pboxFinalizar.Location = new System.Drawing.Point(705, 561);
             this.pboxFinalizar.Name = "pboxFinalizar";
@@ -613,6 +637,7 @@
             // pboxAbandonar
             // 
             this.pboxAbandonar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.pboxAbandonar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxAbandonar.Image = global::SistemaEvaluacion.Properties.Resources.Evaluacion_Abandonar_Examen;
             this.pboxAbandonar.Location = new System.Drawing.Point(478, 561);
             this.pboxAbandonar.Name = "pboxAbandonar";
@@ -625,6 +650,7 @@
             // pboxSiguientePregunta
             // 
             this.pboxSiguientePregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.pboxSiguientePregunta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxSiguientePregunta.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Siguiente;
             this.pboxSiguientePregunta.Location = new System.Drawing.Point(361, 138);
             this.pboxSiguientePregunta.Name = "pboxSiguientePregunta";
@@ -637,6 +663,7 @@
             // pboxPreguntas2130
             // 
             this.pboxPreguntas2130.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.pboxPreguntas2130.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxPreguntas2130.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_21_30;
             this.pboxPreguntas2130.Location = new System.Drawing.Point(470, 12);
             this.pboxPreguntas2130.Name = "pboxPreguntas2130";
@@ -649,6 +676,7 @@
             // pboxPreguntas1120
             // 
             this.pboxPreguntas1120.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.pboxPreguntas1120.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxPreguntas1120.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_11_20;
             this.pboxPreguntas1120.Location = new System.Drawing.Point(245, 12);
             this.pboxPreguntas1120.Name = "pboxPreguntas1120";
@@ -661,6 +689,7 @@
             // pboxPreguntaAnterior
             // 
             this.pboxPreguntaAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.pboxPreguntaAnterior.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxPreguntaAnterior.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Pregunta_Anterior;
             this.pboxPreguntaAnterior.Location = new System.Drawing.Point(292, 138);
             this.pboxPreguntaAnterior.Name = "pboxPreguntaAnterior";
@@ -670,57 +699,10 @@
             this.pboxPreguntaAnterior.TabStop = false;
             this.pboxPreguntaAnterior.Click += new System.EventHandler(this.pboxPreguntaAnterior_Click);
             // 
-            // pboxRespuestaD
-            // 
-            this.pboxRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.pboxRespuestaD.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
-            this.pboxRespuestaD.Location = new System.Drawing.Point(468, 440);
-            this.pboxRespuestaD.Name = "pboxRespuestaD";
-            this.pboxRespuestaD.Size = new System.Drawing.Size(222, 87);
-            this.pboxRespuestaD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxRespuestaD.TabIndex = 31;
-            this.pboxRespuestaD.TabStop = false;
-            this.pboxRespuestaD.Click += new System.EventHandler(this.pboxRespuestaD_Click);
-            // 
-            // pboxRespuestaC
-            // 
-            this.pboxRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.pboxRespuestaC.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
-            this.pboxRespuestaC.Location = new System.Drawing.Point(468, 329);
-            this.pboxRespuestaC.Name = "pboxRespuestaC";
-            this.pboxRespuestaC.Size = new System.Drawing.Size(222, 93);
-            this.pboxRespuestaC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxRespuestaC.TabIndex = 30;
-            this.pboxRespuestaC.TabStop = false;
-            this.pboxRespuestaC.Click += new System.EventHandler(this.pboxRespuestaC_Click);
-            // 
-            // pboxRespuestaB
-            // 
-            this.pboxRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.pboxRespuestaB.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
-            this.pboxRespuestaB.Location = new System.Drawing.Point(196, 440);
-            this.pboxRespuestaB.Name = "pboxRespuestaB";
-            this.pboxRespuestaB.Size = new System.Drawing.Size(222, 87);
-            this.pboxRespuestaB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxRespuestaB.TabIndex = 29;
-            this.pboxRespuestaB.TabStop = false;
-            this.pboxRespuestaB.Click += new System.EventHandler(this.pboxRespuestaB_Click);
-            // 
-            // pboxRespuestaA
-            // 
-            this.pboxRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
-            this.pboxRespuestaA.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Respuestas_Vacio__2_;
-            this.pboxRespuestaA.Location = new System.Drawing.Point(196, 329);
-            this.pboxRespuestaA.Name = "pboxRespuestaA";
-            this.pboxRespuestaA.Size = new System.Drawing.Size(222, 93);
-            this.pboxRespuestaA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pboxRespuestaA.TabIndex = 28;
-            this.pboxRespuestaA.TabStop = false;
-            this.pboxRespuestaA.Click += new System.EventHandler(this.pboxRespuestaA_Click);
-            // 
             // pboxPreguntas110
             // 
             this.pboxPreguntas110.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(6)))), ((int)(((byte)(26)))));
+            this.pboxPreguntas110.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pboxPreguntas110.Image = global::SistemaEvaluacion.Properties.Resources.Preguntas_Boton_Preguntas_1_10;
             this.pboxPreguntas110.Location = new System.Drawing.Point(23, 12);
             this.pboxPreguntas110.Name = "pboxPreguntas110";
@@ -759,15 +741,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 639);
-            this.Controls.Add(this.lblRespuestaD);
-            this.Controls.Add(this.lblRespuestaB);
-            this.Controls.Add(this.lblRespuestaA);
-            this.Controls.Add(this.lblRespuestaC);
+            this.Controls.Add(this.buttonRespuestaD);
+            this.Controls.Add(this.buttonRespuestaB);
+            this.Controls.Add(this.buttonRespuestaC);
+            this.Controls.Add(this.buttonRespuestaA);
+            this.Controls.Add(this.pnlPreguntas2130);
+            this.Controls.Add(this.pnlPreguntas1120);
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.pboxTemporizador);
             this.Controls.Add(this.lblPregunta);
-            this.Controls.Add(this.pnlPreguntas2130);
-            this.Controls.Add(this.pnlPreguntas1120);
             this.Controls.Add(this.pnlPreguntas110);
             this.Controls.Add(this.pboxFinalizar);
             this.Controls.Add(this.pboxAbandonar);
@@ -775,10 +757,6 @@
             this.Controls.Add(this.pboxPreguntas2130);
             this.Controls.Add(this.pboxPreguntas1120);
             this.Controls.Add(this.pboxPreguntaAnterior);
-            this.Controls.Add(this.pboxRespuestaD);
-            this.Controls.Add(this.pboxRespuestaC);
-            this.Controls.Add(this.pboxRespuestaB);
-            this.Controls.Add(this.pboxRespuestaA);
             this.Controls.Add(this.pboxPreguntas110);
             this.Controls.Add(this.pboxPregunta);
             this.Controls.Add(this.pboxEvaluacionFondo);
@@ -826,10 +804,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas2130)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas1120)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaB)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pboxRespuestaA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntas110)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPregunta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxEvaluacionFondo)).EndInit();
@@ -879,19 +853,15 @@
         private System.Windows.Forms.PictureBox pboxPreguntas2130;
         private System.Windows.Forms.PictureBox pboxPreguntas1120;
         private System.Windows.Forms.PictureBox pboxPreguntaAnterior;
-        private System.Windows.Forms.PictureBox pboxRespuestaD;
-        private System.Windows.Forms.PictureBox pboxRespuestaC;
-        private System.Windows.Forms.PictureBox pboxRespuestaB;
-        private System.Windows.Forms.PictureBox pboxRespuestaA;
         private System.Windows.Forms.PictureBox pboxPreguntas110;
         private System.Windows.Forms.PictureBox pboxPregunta;
         private System.Windows.Forms.Label lblPregunta;
-        private System.Windows.Forms.Label lblRespuestaA;
-        private System.Windows.Forms.Label lblRespuestaC;
-        private System.Windows.Forms.Label lblRespuestaB;
-        private System.Windows.Forms.Label lblRespuestaD;
         private System.Windows.Forms.PictureBox pboxTemporizador;
         private System.Windows.Forms.Label lblTiempo;
         private System.Windows.Forms.PictureBox pboxEvaluacionFondo;
+        private System.Windows.Forms.Button buttonRespuestaA;
+        private System.Windows.Forms.Button buttonRespuestaC;
+        private System.Windows.Forms.Button buttonRespuestaB;
+        private System.Windows.Forms.Button buttonRespuestaD;
     }
 }
