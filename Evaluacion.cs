@@ -74,12 +74,12 @@ namespace SistemaEvaluacion
                     if (pregunta.RespuestasBarajeadas == null || pregunta.RespuestasBarajeadas.Count == 0)
                     {
                         List<string> respuestas = new List<string>
-                {
-                    pregunta.RespuestaCorrecta,
-                    pregunta.RespuestaIncorrecta1,
-                    pregunta.RespuestaIncorrecta2,
-                    pregunta.RespuestaIncorrecta3
-                };
+                        {
+                            pregunta.RespuestaCorrecta,
+                            pregunta.RespuestaIncorrecta1,
+                            pregunta.RespuestaIncorrecta2,
+                            pregunta.RespuestaIncorrecta3
+                        };
 
                         respuestas = respuestas.OrderBy(x => random.Next()).ToList();
 

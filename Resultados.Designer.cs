@@ -1,4 +1,4 @@
-﻿namespace SistemaEvaluacion
+namespace SistemaEvaluacion
 {
     partial class Resultados
     {
@@ -85,6 +85,7 @@
             this.pboxCasilla5 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla6 = new System.Windows.Forms.PictureBox();
             this.pboxCasilla7 = new System.Windows.Forms.PictureBox();
+            this.lblPuntuacion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSiguientePregunta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPreguntaAnterior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxMensajeResultado)).BeginInit();
@@ -153,7 +154,6 @@
             // 
             // lblRespuestaA
             // 
-            this.lblRespuestaA.AutoSize = true;
             this.lblRespuestaA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaA.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(255)))), ((int)(((byte)(60)))));
@@ -167,7 +167,6 @@
             // 
             // lblRespuestaC
             // 
-            this.lblRespuestaC.AutoSize = true;
             this.lblRespuestaC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaC.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
@@ -181,7 +180,6 @@
             // 
             // lblRespuestaB
             // 
-            this.lblRespuestaB.AutoSize = true;
             this.lblRespuestaB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaB.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
@@ -195,7 +193,6 @@
             // 
             // lblRespuestaD
             // 
-            this.lblRespuestaD.AutoSize = true;
             this.lblRespuestaD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
             this.lblRespuestaD.Font = new System.Drawing.Font("Century", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRespuestaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(77)))));
@@ -873,6 +870,18 @@
             this.pboxCasilla7.TabStop = false;
             this.pboxCasilla7.Click += new System.EventHandler(this.pboxCasilla7_Click);
             // 
+            // lblPuntuacion
+            // 
+            this.lblPuntuacion.AutoSize = true;
+            this.lblPuntuacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(22)))), ((int)(((byte)(41)))));
+            this.lblPuntuacion.Font = new System.Drawing.Font("Century", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPuntuacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(255)))), ((int)(((byte)(239)))));
+            this.lblPuntuacion.Location = new System.Drawing.Point(821, 161);
+            this.lblPuntuacion.Name = "lblPuntuacion";
+            this.lblPuntuacion.Size = new System.Drawing.Size(115, 23);
+            this.lblPuntuacion.TabIndex = 61;
+            this.lblPuntuacion.Text = "Puntuación";
+            // 
             // Resultados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1023,5 +1032,6 @@
         private System.Windows.Forms.PictureBox pboxCasilla5;
         private System.Windows.Forms.PictureBox pboxCasilla6;
         private System.Windows.Forms.PictureBox pboxCasilla7;
+        private System.Windows.Forms.Label lblPuntuacion;
     }
 }

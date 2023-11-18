@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using System.Threading;
 
 namespace SistemaEvaluacion
 {
@@ -17,12 +17,111 @@ namespace SistemaEvaluacion
         private int indiceActual = 0;
         private int preguntasCorrectas = 0;
         private int preguntasIncorrectas = 0;
+        private float calificacion = 0;
+
 
         public Resultados()
         {
             InitializeComponent();
             preguntas = new List<Pregunta>();
             CargarDatosCasillas();
+
+            // Agrega un retraso de 1/2 segundo
+            Thread.Sleep(500);
+            // Recorre todas las preguntas y verifica las respuestas
+            for (int i = 0; i < preguntas.Count; i++)
+            {
+                VerificarRespuesta(i);
+            }
+        }
+
+        private void VerificarRespuesta(int preguntaActualIndex)
+        {
+            // Asegúrate de que la lista de preguntas esté cargada antes de acceder a una pregunta específica
+            if (preguntas == null || preguntas.Count <= preguntaActualIndex)
+            {
+                MessageBox.Show("Error al acceder a la pregunta actual. Asegúrate de cargar las preguntas correctamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Pregunta preguntaActual = preguntas[preguntaActualIndex]; // Ajusta el índice según la base cero
+
+            // Obtiene la respuesta correcta directamente del archivo CSV
+            string rutaArchivo = "resultados.csv";
+
+            try
+            {
+                if (!File.Exists(rutaArchivo))
+                {
+                    MessageBox.Show("Error al acceder al archivo CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var lineaPregunta = File.ReadLines(rutaArchivo)
+                    .ElementAtOrDefault(preguntaActualIndex); // Obtener la línea de la pregunta actual
+
+                if (lineaPregunta == null)
+                {
+                    MessageBox.Show("Error al leer la pregunta del archivo CSV.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var campos = lineaPregunta.Split(',');
+
+                // Obtener la respuesta correcta, la opción seleccionada y los textos de respuesta
+                var respuestaCorrecta = campos.ElementAtOrDefault(1);
+                var opcionSeleccionada = campos.ElementAtOrDefault(2);
+                var textoRespuestaA = campos.ElementAtOrDefault(3);
+                var textoRespuestaB = campos.ElementAtOrDefault(4);
+                var textoRespuestaC = campos.ElementAtOrDefault(5);
+                var textoRespuestaD = campos.ElementAtOrDefault(6);
+
+                // Convertir la opción seleccionada en el texto correspondiente
+                string textoRespuestaSeleccionada;
+
+                switch (opcionSeleccionada)
+                {
+                    case "A":
+                        textoRespuestaSeleccionada = textoRespuestaA;
+                        break;
+                    case "B":
+                        textoRespuestaSeleccionada = textoRespuestaB;
+                        break;
+                    case "C":
+                        textoRespuestaSeleccionada = textoRespuestaC;
+                        break;
+                    case "D":
+                        textoRespuestaSeleccionada = textoRespuestaD;
+                        break;
+                    default:
+                        textoRespuestaSeleccionada = "No seleccionada";
+                        break;
+                }
+
+                // Verificar la respuesta
+                if (textoRespuestaSeleccionada == "No seleccionada")
+                {
+                    preguntasIncorrectas++;
+                }
+                else if (!string.IsNullOrEmpty(respuestaCorrecta) &&
+                        respuestaCorrecta.Trim().Equals(textoRespuestaSeleccionada.Trim(), StringComparison.OrdinalIgnoreCase))
+                {
+                    preguntasCorrectas++;
+                }
+                else
+                {
+                    preguntasIncorrectas++;
+                }
+
+                // Actualiza Labels
+                lblCorrectas.Text = $"{preguntasCorrectas}";
+                lblIncorrectas.Text = $"{preguntasIncorrectas}";
+                lblPuntuacion.Text = $"{Math.Round(preguntasCorrectas * 3.33, 2)} Pts"; // Redondea a 2 decimales
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void MostrarPreguntaYRespuestas(int preguntaActualIndex)
@@ -217,8 +316,11 @@ namespace SistemaEvaluacion
             pnlPreguntas2130.Visible = false;
         }
 
-
-
+        private void pboxCasilla1_Click(object sender, EventArgs e)
+        {
+            indiceActual = 1;
+            MostrarPreguntaYRespuestas(1);
+        }
         private void pboxCasilla2_Click_1(object sender, EventArgs e)
         {
             indiceActual = 2;
@@ -431,7 +533,7 @@ namespace SistemaEvaluacion
             else
             {
                 // Si es la primera casilla, vuelve a la última
-                ActualizarIndiceCasilla(preguntas.Count - 1);
+                ActualizarIndiceCasilla(preguntas.Count); //-1???
             }
 
             ActualizarPanelPreguntas();
@@ -474,12 +576,6 @@ namespace SistemaEvaluacion
         {
 
         }
-
-        private void pboxCasilla1_Click(object sender, EventArgs e)
-        {
-            MostrarPreguntaYRespuestas(1);
-        }
-
 
         private void lblRespuestaA_Click(object sender, EventArgs e)
         {

@@ -1,4 +1,4 @@
-﻿namespace SistemaEvaluacion
+namespace SistemaEvaluacion
 {
     partial class Evaluacion
     {
